@@ -29,28 +29,20 @@ var CheatLayer = cc.Layer.extend({
             Loading.getInstance()._mainLayer._cheat.setVisible(false);
         });
         this._cheat.addClickEventListener(function () {
-            this.gold=parseInt(self._layer.getChildByName("res_bar_2").getChildByName("gold_text").getString());
-            this.elixir=parseInt(self._layer.getChildByName("res_bar_5_0").getChildByName("elixir_text").getString());
-            this.g=parseInt(self._layer.getChildByName("res_bar_5").getChildByName("g_text").getString());
-            cc.log(this.gold+" "+this.elixir+" "+this.g);
-            testnetwork.connector.sendCheat(this.gold,this.elixir,1,this.g);
+            this.gold = parseInt(self._layer.getChildByName("res_bar_2").getChildByName("gold_text").getString());
+            this.elixir = parseInt(self._layer.getChildByName("res_bar_5_0").getChildByName("elixir_text").getString());
+            this.g = parseInt(self._layer.getChildByName("res_bar_5").getChildByName("g_text").getString());
+            cc.log(this.gold + " " + this.elixir + " " + this.g);
+            cc.log(User.getInstance().getGold());
+            if (isNaN(this.gold)) this.gold = User.getInstance().getGold();
+            if (isNaN(this.elixir)) this.elixir = User.getInstance().getElixir();
+            if (isNaN(this.g)) this.g = User.getInstance().getG();
+            cc.log(this.gold + " " + this.elixir + " " + this.g);
+            testnetwork.connector.sendCheat(this.gold, this.elixir, 1, this.g);
             User.getInstance().update(this);
             MapController.getInstance().updateResourceGUI();
             Loading.getInstance()._mainLayer._cheat.setVisible(false);
         })
-        // this.
-        // var buttonLogin = this._layer.getChildByName("LoginButton");
-        // var id = jsb.fileUtils.getStringFromFile("res/content/user.json");
-        // this._layer.getChildByName("TextField_1").setString(id);
-        // buttonLogin.setPressedActionEnabled(true);
-        // buttonLogin.addClickEventListener(this.onSelectLogin.bind(this));
-        //
-        //
-        // // var p=cc.TextFieldTTF();
-        // // p.get
-        // this.lblLog = gv.commonText(fr.Localization.text(""), size.width * 0.4, size.height * 0.05);
-        // this.addChild(this.lblLog);
-        // this._addBuildVersion();
     },
 
 
