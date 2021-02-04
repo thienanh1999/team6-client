@@ -1,0 +1,732 @@
+{
+  "ID": "a2ee0952-26b5-49ae-8bf9-4f1d6279b798",
+  "Version": "3.10.0.0",
+  "Name": "MainScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "res/content/shop/shop_gui/nen2.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 480.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.8333,
+              "Y": 0.75
+            },
+            "HorizontalEdge": "RightEdge",
+            "VerticalEdge": "TopEdge",
+            "LeftMargin": 80.0,
+            "RightMargin": 80.0,
+            "TopMargin": 80.0,
+            "BottomMargin": 80.0,
+            "Tag": 3,
+            "ActionTag": -861151184,
+            "Size": {
+              "X": 800.0,
+              "Y": 480.0
+            },
+            "Name": "nen2_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "res/content/shop/shop_gui/res_bar.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 407.0,
+              "Y": 407.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.424,
+              "Y": 0.6359
+            },
+            "PreSize": {
+              "X": 0.1458,
+              "Y": 0.0562
+            },
+            "LeftMargin": 337.0,
+            "RightMargin": 483.0,
+            "TopMargin": 215.0,
+            "BottomMargin": 389.0,
+            "Tag": 4,
+            "Children": [
+              {
+                "FontSize": 20,
+                "IsCustomSize": true,
+                "LabelText": "",
+                "PlaceHolderText": "Gold",
+                "MaxLengthText": 10,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 82.0,
+                  "Y": 17.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5857,
+                  "Y": 0.4861
+                },
+                "PreSize": {
+                  "X": 0.6,
+                  "Y": 0.6389
+                },
+                "HorizontalEdge": "LeftEdge",
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 40.0,
+                "RightMargin": 16.0,
+                "TopMargin": 7.0,
+                "BottomMargin": 6.0,
+                "Tag": 14,
+                "ActionTag": 627158971,
+                "Size": {
+                  "X": 84.0,
+                  "Y": 23.0
+                },
+                "Name": "gold_text",
+                "ctype": "TextFieldObjectData"
+              }
+            ],
+            "ActionTag": -1372698419,
+            "Size": {
+              "X": 140.0,
+              "Y": 36.0
+            },
+            "Name": "res_bar_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "res/content/shop/shop_gui/icon_gold_bar.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 265.0,
+              "Y": 407.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.276,
+              "Y": 0.6359
+            },
+            "PreSize": {
+              "X": 0.0375,
+              "Y": 0.0594
+            },
+            "LeftMargin": 247.0,
+            "RightMargin": 677.0,
+            "TopMargin": 214.0,
+            "BottomMargin": 388.0,
+            "Tag": 5,
+            "ActionTag": -456928054,
+            "Size": {
+              "X": 36.0,
+              "Y": 38.0
+            },
+            "Name": "icon_gold_bar_3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "res/content/shop/shop_gui/icon_g_bar.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 264.0,
+              "Y": 337.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.275,
+              "Y": 0.5266
+            },
+            "PreSize": {
+              "X": 0.0333,
+              "Y": 0.0531
+            },
+            "LeftMargin": 248.0,
+            "RightMargin": 680.0,
+            "TopMargin": 286.0,
+            "BottomMargin": 320.0,
+            "Tag": 6,
+            "ActionTag": 1108002921,
+            "Size": {
+              "X": 32.0,
+              "Y": 34.0
+            },
+            "Name": "icon_g_bar_4",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "res/content/shop/shop_gui/res_bar.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 408.0,
+              "Y": 338.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.425,
+              "Y": 0.5281
+            },
+            "PreSize": {
+              "X": 0.1458,
+              "Y": 0.0562
+            },
+            "LeftMargin": 338.0,
+            "RightMargin": 482.0,
+            "TopMargin": 284.0,
+            "BottomMargin": 320.0,
+            "Tag": 7,
+            "Children": [
+              {
+                "FontSize": 20,
+                "IsCustomSize": true,
+                "LabelText": "",
+                "PlaceHolderText": "G",
+                "MaxLengthText": 10,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 80.0,
+                  "Y": 16.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5714,
+                  "Y": 0.4583
+                },
+                "PreSize": {
+                  "X": 0.6,
+                  "Y": 0.6389
+                },
+                "HorizontalEdge": "LeftEdge",
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 38.0,
+                "RightMargin": 18.0,
+                "TopMargin": 8.0,
+                "BottomMargin": 5.0,
+                "Tag": 15,
+                "ActionTag": -263965226,
+                "Size": {
+                  "X": 84.0,
+                  "Y": 23.0
+                },
+                "Name": "g_text",
+                "ctype": "TextFieldObjectData"
+              }
+            ],
+            "ActionTag": -2041611211,
+            "Size": {
+              "X": 140.0,
+              "Y": 36.0
+            },
+            "Name": "res_bar_5",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "res/content/shop/shop_gui/icon_elixir_bar.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 263.0,
+              "Y": 267.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.274,
+              "Y": 0.4172
+            },
+            "PreSize": {
+              "X": 0.0312,
+              "Y": 0.0625
+            },
+            "LeftMargin": 248.0,
+            "RightMargin": 682.0,
+            "TopMargin": 353.0,
+            "BottomMargin": 247.0,
+            "Tag": 8,
+            "ActionTag": -1413394198,
+            "Size": {
+              "X": 30.0,
+              "Y": 40.0
+            },
+            "Name": "icon_elixir_bar_6",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "LabelText": "Cheat",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "res/content/logingui/fonts/soji_24.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 464.0,
+              "Y": 527.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4833,
+              "Y": 0.8234
+            },
+            "PreSize": {
+              "X": 0.101,
+              "Y": 0.0594
+            },
+            "LeftMargin": 415.5,
+            "RightMargin": 447.5,
+            "TopMargin": 94.0,
+            "BottomMargin": 508.0,
+            "Tag": 9,
+            "ActionTag": -1163572331,
+            "Size": {
+              "X": 97.0,
+              "Y": 38.0
+            },
+            "Name": "Title",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "res/content/shop/shop_gui/res_bar.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 408.0,
+              "Y": 266.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.425,
+              "Y": 0.4156
+            },
+            "PreSize": {
+              "X": 0.1458,
+              "Y": 0.0562
+            },
+            "LeftMargin": 338.0,
+            "RightMargin": 482.0,
+            "TopMargin": 356.0,
+            "BottomMargin": 248.0,
+            "Tag": 10,
+            "Children": [
+              {
+                "FontSize": 20,
+                "IsCustomSize": true,
+                "LabelText": "",
+                "PlaceHolderText": "Elixir",
+                "MaxLengthText": 10,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 81.0,
+                  "Y": 18.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5786,
+                  "Y": 0.5139
+                },
+                "PreSize": {
+                  "X": 0.6,
+                  "Y": 0.6389
+                },
+                "HorizontalEdge": "LeftEdge",
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 39.0,
+                "RightMargin": 17.0,
+                "TopMargin": 6.0,
+                "BottomMargin": 7.0,
+                "Tag": 16,
+                "ActionTag": -1743154957,
+                "Size": {
+                  "X": 84.0,
+                  "Y": 23.0
+                },
+                "Name": "elixir_text",
+                "ctype": "TextFieldObjectData"
+              }
+            ],
+            "ActionTag": 1663485067,
+            "Size": {
+              "X": 140.0,
+              "Y": 36.0
+            },
+            "Name": "res_bar_5_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "res/content/logingui/okbutton.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "res/content/logingui/okbutton.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "res/content/logingui/okbutton.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 88,
+            "Scale9Height": 22,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 397.0,
+              "Y": 174.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4135,
+              "Y": 0.2719
+            },
+            "PreSize": {
+              "X": 0.1229,
+              "Y": 0.0688
+            },
+            "LeftMargin": 338.0,
+            "RightMargin": 504.0,
+            "TopMargin": 444.0,
+            "BottomMargin": 152.0,
+            "Tag": 12,
+            "Children": [
+              {
+                "LabelText": "Cheat",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "res/content/logingui/fonts/soji_24.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 59.5,
+                  "Y": 20.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5042,
+                  "Y": 0.4659
+                },
+                "PreSize": {
+                  "X": 0.822,
+                  "Y": 0.8636
+                },
+                "HorizontalEdge": "LeftEdge",
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 11.0,
+                "RightMargin": 10.0,
+                "TopMargin": 4.5,
+                "BottomMargin": 1.5,
+                "Tag": 13,
+                "ActionTag": -343545566,
+                "Size": {
+                  "X": 97.0,
+                  "Y": 38.0
+                },
+                "Name": "BitmapFontLabel_2",
+                "ctype": "TextBMFontObjectData"
+              }
+            ],
+            "ActionTag": -1656484576,
+            "Size": {
+              "X": 118.0,
+              "Y": 44.0
+            },
+            "Name": "Cheat",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "res/content/shop/shop_gui/close.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "res/content/shop/shop_gui/close.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "res/content/shop/shop_gui/close.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 17,
+            "Scale9Height": 25,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 829.0,
+              "Y": 527.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8635,
+              "Y": 0.8234
+            },
+            "PreSize": {
+              "X": 0.049,
+              "Y": 0.0734
+            },
+            "LeftMargin": 805.5,
+            "RightMargin": 107.5,
+            "TopMargin": 89.5,
+            "BottomMargin": 503.5,
+            "Tag": 19,
+            "ActionTag": 1791428001,
+            "Size": {
+              "X": 47.0,
+              "Y": 47.0
+            },
+            "Name": "close_btn",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 960.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "res/content/logingui/fonts/soji_24.fnt",
+        "res/content/logingui/fonts/soji_24.png",
+        "res/content/logingui/okbutton.png",
+        "res/content/shop/shop_gui/close.png",
+        "res/content/shop/shop_gui/icon_elixir_bar.png",
+        "res/content/shop/shop_gui/icon_g_bar.png",
+        "res/content/shop/shop_gui/icon_gold_bar.png",
+        "res/content/shop/shop_gui/nen2.png",
+        "res/content/shop/shop_gui/res_bar.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

@@ -1,0 +1,720 @@
+{
+  "ID": "10991e5b-fc25-480a-aed7-a2b05abdc6db",
+  "Version": "3.10.0.0",
+  "Name": "ResourceLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 62,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "guis/main_gui/bg_bar_2.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 20,
+            "Scale9OriginY": 5,
+            "Scale9Width": 87,
+            "Scale9Height": 18,
+            "AnchorPoint": {
+              "ScaleX": 0.8744,
+              "ScaleY": -1.9658
+            },
+            "Position": {
+              "X": 152.8257,
+              "Y": 46.6992
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7641,
+              "Y": 0.3113
+            },
+            "PreSize": {
+              "X": 0.75,
+              "Y": 0.1867
+            },
+            "HorizontalEdge": "RightEdge",
+            "VerticalEdge": "TopEdge",
+            "LeftMargin": 21.6656,
+            "RightMargin": 28.3344,
+            "TopMargin": 20.2584,
+            "BottomMargin": 101.7416,
+            "Tag": 65,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "guis/main_gui/gold_bar.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 5,
+                "Scale9OriginY": 6,
+                "Scale9Width": 108,
+                "Scale9Height": 8,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 141.0,
+                  "Y": 17.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.94,
+                  "Y": 0.6071
+                },
+                "PreSize": {
+                  "X": 0.9333,
+                  "Y": 0.6429
+                },
+                "HorizontalEdge": "RightEdge",
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 1.0,
+                "RightMargin": 9.0,
+                "TopMargin": 2.0,
+                "BottomMargin": 8.0,
+                "Tag": 67,
+                "ActionTag": -497355356,
+                "Size": {
+                  "X": 140.0,
+                  "Y": 18.0
+                },
+                "Name": "imv_current_resource",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "LabelText": "1000",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "fonts/soji_12.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 137.4888,
+                  "Y": 16.7557
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9166,
+                  "Y": 0.5984
+                },
+                "PreSize": {
+                  "X": 0.3533,
+                  "Y": 0.6786
+                },
+                "HorizontalEdge": "RightEdge",
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 84.4888,
+                "RightMargin": 12.5112,
+                "TopMargin": 1.7443,
+                "BottomMargin": 7.2557,
+                "Tag": 66,
+                "ActionTag": -740010870,
+                "Size": {
+                  "X": 53.0,
+                  "Y": 19.0
+                },
+                "Name": "lb_resource",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "guis/main_gui/gold_icon.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 9,
+                "Scale9OriginY": 9,
+                "Scale9Width": 10,
+                "Scale9Height": 11,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 156.0,
+                  "Y": 14.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.04,
+                  "Y": 0.5179
+                },
+                "PreSize": {
+                  "X": 0.1867,
+                  "Y": 1.0357
+                },
+                "HorizontalEdge": "RightEdge",
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 142.0,
+                "RightMargin": -20.0,
+                "TopMargin": -1.0,
+                "Tag": 71,
+                "ActionTag": 1854719460,
+                "Size": {
+                  "X": 28.0,
+                  "Y": 29.0
+                },
+                "Name": "Image_3",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "LabelText": "Max: 1.000.000",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "fonts/soji_12.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 73.8866,
+                  "Y": 37.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4926,
+                  "Y": 1.3393
+                },
+                "PreSize": {
+                  "X": 0.88,
+                  "Y": 0.6786
+                },
+                "LeftMargin": 7.8866,
+                "RightMargin": 10.1134,
+                "TopMargin": -19.0,
+                "BottomMargin": 28.0,
+                "Tag": 74,
+                "ActionTag": -294417447,
+                "Size": {
+                  "X": 132.0,
+                  "Y": 19.0
+                },
+                "Name": "lb_max",
+                "ctype": "TextBMFontObjectData"
+              }
+            ],
+            "ActionTag": -1947766963,
+            "Size": {
+              "X": 150.0,
+              "Y": 28.0
+            },
+            "Name": "imv_gold",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "guis/main_gui/bg_bar_2.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 20,
+            "Scale9OriginY": 5,
+            "Scale9Width": 87,
+            "Scale9Height": 18,
+            "AnchorPoint": {
+              "ScaleX": 0.8744,
+              "ScaleY": -1.9658
+            },
+            "Position": {
+              "X": 152.8236,
+              "Y": 5.3982
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7641,
+              "Y": 0.036
+            },
+            "PreSize": {
+              "X": 0.75,
+              "Y": 0.1867
+            },
+            "HorizontalEdge": "RightEdge",
+            "VerticalEdge": "TopEdge",
+            "LeftMargin": 21.6636,
+            "RightMargin": 28.3364,
+            "TopMargin": 61.5594,
+            "BottomMargin": 60.4406,
+            "Tag": 75,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "guis/main_gui/elixir_bar.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 5,
+                "Scale9OriginY": 6,
+                "Scale9Width": 108,
+                "Scale9Height": 8,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 141.0,
+                  "Y": 17.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.94,
+                  "Y": 0.6071
+                },
+                "PreSize": {
+                  "X": 0.9333,
+                  "Y": 0.6429
+                },
+                "HorizontalEdge": "RightEdge",
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 1.0,
+                "RightMargin": 9.0,
+                "TopMargin": 2.0,
+                "BottomMargin": 8.0,
+                "Tag": 76,
+                "ActionTag": -716458410,
+                "Size": {
+                  "X": 140.0,
+                  "Y": 18.0
+                },
+                "Name": "imv_current_resource",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "LabelText": "1000",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "fonts/soji_12.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 140.0,
+                  "Y": 15.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9333,
+                  "Y": 0.5536
+                },
+                "PreSize": {
+                  "X": 0.3533,
+                  "Y": 0.6786
+                },
+                "HorizontalEdge": "RightEdge",
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 87.0,
+                "RightMargin": 10.0,
+                "TopMargin": 3.0,
+                "BottomMargin": 6.0,
+                "Tag": 77,
+                "ActionTag": 2079319035,
+                "Size": {
+                  "X": 53.0,
+                  "Y": 19.0
+                },
+                "Name": "lb_resource",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "guis/main_gui/elixir_icon.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 9,
+                "Scale9OriginY": 9,
+                "Scale9Width": 9,
+                "Scale9Height": 14,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 156.5,
+                  "Y": 16.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.0433,
+                  "Y": 0.5714
+                },
+                "PreSize": {
+                  "X": 0.18,
+                  "Y": 1.1429
+                },
+                "HorizontalEdge": "RightEdge",
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 143.0,
+                "RightMargin": -20.0,
+                "TopMargin": -4.0,
+                "Tag": 78,
+                "ActionTag": -1583435754,
+                "Size": {
+                  "X": 27.0,
+                  "Y": 32.0
+                },
+                "Name": "Image_3",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "LabelText": "Max: 1.000.000",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "fonts/soji_12.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 73.886,
+                  "Y": 36.2443
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4926,
+                  "Y": 1.2944
+                },
+                "PreSize": {
+                  "X": 0.88,
+                  "Y": 0.6786
+                },
+                "LeftMargin": 7.886,
+                "RightMargin": 10.114,
+                "TopMargin": -17.7443,
+                "BottomMargin": 26.7443,
+                "Tag": 79,
+                "ActionTag": -683361025,
+                "Size": {
+                  "X": 132.0,
+                  "Y": 19.0
+                },
+                "Name": "lb_max",
+                "ctype": "TextBMFontObjectData"
+              }
+            ],
+            "ActionTag": -1351806594,
+            "Size": {
+              "X": 150.0,
+              "Y": 28.0
+            },
+            "Name": "imv_elixir",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "guis/main_gui/bg_bar_1.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 20,
+            "Scale9OriginY": 5,
+            "Scale9Width": 60,
+            "Scale9Height": 21,
+            "AnchorPoint": {
+              "ScaleX": 0.8744,
+              "ScaleY": -1.9658
+            },
+            "Position": {
+              "X": 155.44,
+              "Y": -39.5929
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7772,
+              "Y": -0.264
+            },
+            "PreSize": {
+              "X": 0.5,
+              "Y": 0.2067
+            },
+            "HorizontalEdge": "RightEdge",
+            "VerticalEdge": "TopEdge",
+            "LeftMargin": 68.0,
+            "RightMargin": 32.0,
+            "TopMargin": 97.6531,
+            "BottomMargin": 21.3469,
+            "Tag": 86,
+            "Children": [
+              {
+                "LabelText": "1000",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "fonts/soji_12.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 92.4889,
+                  "Y": 16.0114
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9249,
+                  "Y": 0.5165
+                },
+                "PreSize": {
+                  "X": 0.53,
+                  "Y": 0.6129
+                },
+                "HorizontalEdge": "RightEdge",
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 39.4889,
+                "RightMargin": 7.5111,
+                "TopMargin": 5.4886,
+                "BottomMargin": 6.5114,
+                "Tag": 88,
+                "ActionTag": 523999463,
+                "Size": {
+                  "X": 53.0,
+                  "Y": 19.0
+                },
+                "Name": "lb_resource",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "guis/main_gui/g_icon.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 9,
+                "Scale9OriginY": 9,
+                "Scale9Width": 9,
+                "Scale9Height": 10,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 109.5263,
+                  "Y": 16.7565
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.0953,
+                  "Y": 0.5405
+                },
+                "PreSize": {
+                  "X": 0.27,
+                  "Y": 0.9032
+                },
+                "HorizontalEdge": "RightEdge",
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 96.0263,
+                "RightMargin": -23.0263,
+                "TopMargin": 0.2435,
+                "BottomMargin": 2.7565,
+                "Tag": 89,
+                "ActionTag": 1783564097,
+                "Size": {
+                  "X": 27.0,
+                  "Y": 28.0
+                },
+                "Name": "Image_3",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "guis/main_gui/add_button.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "guis/main_gui/add_button.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 5,
+                "Scale9Height": 13,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -2.5262,
+                  "Y": 15.2302
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.0253,
+                  "Y": 0.4913
+                },
+                "PreSize": {
+                  "X": 0.35,
+                  "Y": 1.129
+                },
+                "HorizontalEdge": "LeftEdge",
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": -20.0262,
+                "RightMargin": 85.0262,
+                "TopMargin": -1.7302,
+                "BottomMargin": -2.2698,
+                "Tag": 92,
+                "ActionTag": 1359640368,
+                "Size": {
+                  "X": 35.0,
+                  "Y": 35.0
+                },
+                "Name": "btn_add_g",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 2136287920,
+            "Size": {
+              "X": 100.0,
+              "Y": 31.0
+            },
+            "Name": "imv_g",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 200.0,
+          "Y": 150.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../Default/Button_Disable.png",
+        "../fonts/soji_12.fnt",
+        "../fonts/soji_12.png",
+        "../guis/main_gui/add_button.png",
+        "../guis/main_gui/bg_bar_1.png",
+        "../guis/main_gui/bg_bar_2.png",
+        "../guis/main_gui/elixir_bar.png",
+        "../guis/main_gui/elixir_icon.png",
+        "../guis/main_gui/g_icon.png",
+        "../guis/main_gui/gold_bar.png",
+        "../guis/main_gui/gold_icon.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

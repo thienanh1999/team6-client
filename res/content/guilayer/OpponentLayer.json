@@ -1,0 +1,896 @@
+{
+  "ID": "8049515d-649f-4bba-ab60-7427f31826bf",
+  "Version": "3.10.0.0",
+  "Name": "OpponentLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 48,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "guis/pop_up/button2.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 80.0,
+              "Y": 199.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0833,
+              "Y": 0.3109
+            },
+            "PreSize": {
+              "X": 0.1469,
+              "Y": 0.0938
+            },
+            "LeftMargin": 9.5,
+            "RightMargin": 809.5,
+            "TopMargin": 411.0,
+            "BottomMargin": 169.0,
+            "Tag": 63,
+            "Children": [
+              {
+                "LabelText": "End Battle",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "fonts/soji_16.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 70.5,
+                  "Y": 30.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.8085,
+                  "Y": 0.4167
+                },
+                "HorizontalEdge": "LeftEdge",
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 13.5,
+                "RightMargin": 13.5,
+                "TopMargin": 17.5,
+                "BottomMargin": 17.5,
+                "Tag": 78,
+                "ActionTag": -2014193149,
+                "Size": {
+                  "X": 114.0,
+                  "Y": 25.0
+                },
+                "Name": "BitmapFontLabel_9",
+                "ctype": "TextBMFontObjectData"
+              }
+            ],
+            "ActionTag": -904048372,
+            "Size": {
+              "X": 141.0,
+              "Y": 60.0
+            },
+            "Name": "button2_5",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "new/battle_gui/button_next_find.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 878.7755,
+              "Y": 199.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9154,
+              "Y": 0.3109
+            },
+            "PreSize": {
+              "X": 0.1719,
+              "Y": 0.1234
+            },
+            "LeftMargin": 796.2755,
+            "RightMargin": -1.2755,
+            "TopMargin": 401.5,
+            "BottomMargin": 159.5,
+            "Tag": 81,
+            "ActionTag": 29867899,
+            "Size": {
+              "X": 165.0,
+              "Y": 79.0
+            },
+            "Name": "button_next_find_7",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "LabelText": "FIND NEXT",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "fonts/soji_20.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 895.3975,
+              "Y": 212.7679
+            },
+            "Scale": {
+              "ScaleX": 0.9,
+              "ScaleY": 0.9
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9327,
+              "Y": 0.3324
+            },
+            "PreSize": {
+              "X": 0.1292,
+              "Y": 0.05
+            },
+            "LeftMargin": 833.3975,
+            "RightMargin": 2.6025,
+            "TopMargin": 411.2321,
+            "BottomMargin": 196.7679,
+            "Tag": 82,
+            "ActionTag": -16104804,
+            "Size": {
+              "X": 124.0,
+              "Y": 32.0
+            },
+            "Name": "BitmapFontLabel_11",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "LabelText": "75",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "fonts/soji_20.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 881.4387,
+              "Y": 188.415
+            },
+            "Scale": {
+              "ScaleX": 0.9,
+              "ScaleY": 0.9
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9182,
+              "Y": 0.2944
+            },
+            "PreSize": {
+              "X": 0.0406,
+              "Y": 0.05
+            },
+            "LeftMargin": 861.9387,
+            "RightMargin": 59.0613,
+            "TopMargin": 435.585,
+            "BottomMargin": 172.415,
+            "Tag": 84,
+            "ActionTag": 353499796,
+            "Size": {
+              "X": 39.0,
+              "Y": 32.0
+            },
+            "Name": "BitmapFontLabel_11_0",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "ket thuc tran/tien.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 913.7485,
+              "Y": 186.3229
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9518,
+              "Y": 0.2911
+            },
+            "PreSize": {
+              "X": 0.0292,
+              "Y": 0.0469
+            },
+            "LeftMargin": 899.7485,
+            "RightMargin": 32.2515,
+            "TopMargin": 438.6771,
+            "BottomMargin": 171.3229,
+            "Tag": 85,
+            "ActionTag": 1319404899,
+            "Size": {
+              "X": 28.0,
+              "Y": 30.0
+            },
+            "Name": "tien_3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 8.7586,
+              "Y": 13.5478
+            },
+            "Scale": {
+              "ScaleX": 4.688,
+              "ScaleY": 0.696
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0091,
+              "Y": 0.0212
+            },
+            "PreSize": {
+              "X": 0.2083,
+              "Y": 0.3125
+            },
+            "LeftMargin": 8.7586,
+            "RightMargin": 751.2414,
+            "TopMargin": 426.4522,
+            "BottomMargin": 13.5478,
+            "Tag": 86,
+            "ActionTag": -75651510,
+            "Size": {
+              "X": 200.0,
+              "Y": 200.0
+            },
+            "Name": "Panel_1",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "guis/train_troop_gui/slot.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 480.6021,
+              "Y": 70.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5006,
+              "Y": 0.1094
+            },
+            "PreSize": {
+              "X": 0.1167,
+              "Y": 0.1734
+            },
+            "LeftMargin": 424.6021,
+            "RightMargin": 423.3979,
+            "TopMargin": 514.5,
+            "BottomMargin": 14.5,
+            "Tag": 87,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "guis/train_troop_gui/icon/ARM_1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 55.3156,
+                  "Y": 56.7861
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4939,
+                  "Y": 0.5116
+                },
+                "PreSize": {
+                  "X": 0.8393,
+                  "Y": 0.8378
+                },
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 8.3156,
+                "RightMargin": 9.6844,
+                "TopMargin": 7.7139,
+                "BottomMargin": 10.2861,
+                "Tag": 88,
+                "ActionTag": -639045378,
+                "Size": {
+                  "X": 94.0,
+                  "Y": 93.0
+                },
+                "Name": "image",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "LabelText": "x20",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "fonts/soji_24.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 53.7045,
+                  "Y": 90.6941
+                },
+                "Scale": {
+                  "ScaleX": 0.7,
+                  "ScaleY": 0.7
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4795,
+                  "Y": 0.8171
+                },
+                "PreSize": {
+                  "X": 0.6161,
+                  "Y": 0.3423
+                },
+                "LeftMargin": 19.2045,
+                "RightMargin": 23.7955,
+                "TopMargin": 1.3059,
+                "BottomMargin": 71.6941,
+                "Tag": 89,
+                "ActionTag": 905462602,
+                "Size": {
+                  "X": 69.0,
+                  "Y": 38.0
+                },
+                "Name": "number",
+                "ctype": "TextBMFontObjectData"
+              }
+            ],
+            "ActionTag": -1613055590,
+            "Size": {
+              "X": 112.0,
+              "Y": 111.0
+            },
+            "Name": "slot",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "guis/train_troop_gui/slot.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 222.2639,
+              "Y": 70.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2315,
+              "Y": 0.1094
+            },
+            "PreSize": {
+              "X": 0.1167,
+              "Y": 0.1734
+            },
+            "LeftMargin": 166.2639,
+            "RightMargin": 681.7361,
+            "TopMargin": 514.5,
+            "BottomMargin": 14.5,
+            "Tag": 93,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "guis/train_troop_gui/icon/ARM_1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 55.3156,
+                  "Y": 56.7861
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4939,
+                  "Y": 0.5116
+                },
+                "PreSize": {
+                  "X": 0.8393,
+                  "Y": 0.8378
+                },
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 8.3156,
+                "RightMargin": 9.6844,
+                "TopMargin": 7.7139,
+                "BottomMargin": 10.2861,
+                "Tag": 94,
+                "ActionTag": -166211449,
+                "Size": {
+                  "X": 94.0,
+                  "Y": 93.0
+                },
+                "Name": "image",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "LabelText": "x20",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "fonts/soji_24.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 53.7045,
+                  "Y": 90.6941
+                },
+                "Scale": {
+                  "ScaleX": 0.7,
+                  "ScaleY": 0.7
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4795,
+                  "Y": 0.8171
+                },
+                "PreSize": {
+                  "X": 0.6161,
+                  "Y": 0.3423
+                },
+                "LeftMargin": 19.2045,
+                "RightMargin": 23.7955,
+                "TopMargin": 1.3059,
+                "BottomMargin": 71.6941,
+                "Tag": 95,
+                "ActionTag": -880765325,
+                "Size": {
+                  "X": 69.0,
+                  "Y": 38.0
+                },
+                "Name": "number",
+                "ctype": "TextBMFontObjectData"
+              }
+            ],
+            "ActionTag": -250890576,
+            "Size": {
+              "X": 112.0,
+              "Y": 111.0
+            },
+            "Name": "slot_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "guis/train_troop_gui/slot.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 90.8249,
+              "Y": 70.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0946,
+              "Y": 0.1094
+            },
+            "PreSize": {
+              "X": 0.1167,
+              "Y": 0.1734
+            },
+            "LeftMargin": 34.8249,
+            "RightMargin": 813.1751,
+            "TopMargin": 514.5,
+            "BottomMargin": 14.5,
+            "Tag": 96,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "guis/train_troop_gui/icon/ARM_1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 55.3156,
+                  "Y": 56.7861
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4939,
+                  "Y": 0.5116
+                },
+                "PreSize": {
+                  "X": 0.8393,
+                  "Y": 0.8378
+                },
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 8.3156,
+                "RightMargin": 9.6844,
+                "TopMargin": 7.7139,
+                "BottomMargin": 10.2861,
+                "Tag": 97,
+                "ActionTag": 1578940828,
+                "Size": {
+                  "X": 94.0,
+                  "Y": 93.0
+                },
+                "Name": "image",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "LabelText": "x20",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "fonts/soji_24.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 53.7045,
+                  "Y": 90.6941
+                },
+                "Scale": {
+                  "ScaleX": 0.7,
+                  "ScaleY": 0.7
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4795,
+                  "Y": 0.8171
+                },
+                "PreSize": {
+                  "X": 0.6161,
+                  "Y": 0.3423
+                },
+                "LeftMargin": 19.2045,
+                "RightMargin": 23.7955,
+                "TopMargin": 1.3059,
+                "BottomMargin": 71.6941,
+                "Tag": 98,
+                "ActionTag": 2009032690,
+                "Size": {
+                  "X": 69.0,
+                  "Y": 38.0
+                },
+                "Name": "number",
+                "ctype": "TextBMFontObjectData"
+              }
+            ],
+            "ActionTag": -1830134952,
+            "Size": {
+              "X": 112.0,
+              "Y": 111.0
+            },
+            "Name": "slot_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "guis/train_troop_gui/slot.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 349.3357,
+              "Y": 70.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3639,
+              "Y": 0.1094
+            },
+            "PreSize": {
+              "X": 0.1167,
+              "Y": 0.1734
+            },
+            "LeftMargin": 293.3357,
+            "RightMargin": 554.6643,
+            "TopMargin": 514.5,
+            "BottomMargin": 14.5,
+            "Tag": 99,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "guis/train_troop_gui/icon/ARM_1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 55.3156,
+                  "Y": 56.7861
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4939,
+                  "Y": 0.5116
+                },
+                "PreSize": {
+                  "X": 0.8393,
+                  "Y": 0.8378
+                },
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 8.3156,
+                "RightMargin": 9.6844,
+                "TopMargin": 7.7139,
+                "BottomMargin": 10.2861,
+                "Tag": 100,
+                "ActionTag": -2094895982,
+                "Size": {
+                  "X": 94.0,
+                  "Y": 93.0
+                },
+                "Name": "image",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "LabelText": "x20",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "fonts/soji_24.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 53.7045,
+                  "Y": 90.6941
+                },
+                "Scale": {
+                  "ScaleX": 0.7,
+                  "ScaleY": 0.7
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4795,
+                  "Y": 0.8171
+                },
+                "PreSize": {
+                  "X": 0.6161,
+                  "Y": 0.3423
+                },
+                "LeftMargin": 19.2045,
+                "RightMargin": 23.7955,
+                "TopMargin": 1.3059,
+                "BottomMargin": 71.6941,
+                "Tag": 101,
+                "ActionTag": -629543186,
+                "Size": {
+                  "X": 69.0,
+                  "Y": 38.0
+                },
+                "Name": "number",
+                "ctype": "TextBMFontObjectData"
+              }
+            ],
+            "ActionTag": -912439921,
+            "Size": {
+              "X": 112.0,
+              "Y": 111.0
+            },
+            "Name": "slot_2",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 960.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../fonts/soji_16.fnt",
+        "../fonts/soji_16.png",
+        "../fonts/soji_20.fnt",
+        "../fonts/soji_20.png",
+        "../fonts/soji_24.fnt",
+        "../fonts/soji_24.png",
+        "../guis/pop_up/button2.png",
+        "../guis/train_troop_gui/icon/ARM_1.png",
+        "../guis/train_troop_gui/slot.png",
+        "../ket thuc tran/tien.png",
+        "../new/battle_gui/button_next_find.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

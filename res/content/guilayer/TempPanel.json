@@ -1,0 +1,82 @@
+{
+  "ID": "3c82a621-8994-44f2-be3f-50fc62bab4f6",
+  "Version": "3.10.0.0",
+  "Name": "TempPanel",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 54,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 76,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 104,
+              "G": 115,
+              "B": 127
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": -14.4391,
+              "Y": -79.5024
+            },
+            "Scale": {
+              "ScaleX": 4.9748,
+              "ScaleY": 4.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.015,
+              "Y": -0.1242
+            },
+            "PreSize": {
+              "X": 0.2083,
+              "Y": 0.3125
+            },
+            "LeftMargin": -14.4391,
+            "RightMargin": 774.4391,
+            "TopMargin": 519.5024,
+            "BottomMargin": -79.5024,
+            "Tag": 55,
+            "ActionTag": -387558174,
+            "Size": {
+              "X": 200.0,
+              "Y": 200.0
+            },
+            "Name": "panel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 960.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

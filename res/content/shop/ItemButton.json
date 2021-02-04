@@ -1,0 +1,590 @@
+{
+  "ID": "7b1847d2-bdb9-4e57-9445-19c8d162151e",
+  "Version": "3.10.0.0",
+  "Name": "ItemButton",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 85,
+        "Children": [
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "shop/shop_gui/slot.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "shop/shop_gui/slot.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 196,
+            "Scale9Height": 303,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 238.9266,
+              "Y": 275.3127
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2489,
+              "Y": 0.4302
+            },
+            "PreSize": {
+              "X": 0.2354,
+              "Y": 0.5078
+            },
+            "LeftMargin": 125.9266,
+            "RightMargin": 608.0734,
+            "TopMargin": 202.1873,
+            "BottomMargin": 112.8127,
+            "Tag": 86,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "shop/shop_gui/catalogy_bg.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 79,
+                "Scale9OriginY": 61,
+                "Scale9Width": 83,
+                "Scale9Height": 64,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 117.0,
+                  "Y": 163.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5177,
+                  "Y": 0.5015
+                },
+                "PreSize": {
+                  "X": 1.0664,
+                  "Y": 0.5723
+                },
+                "HorizontalEdge": "LeftEdge",
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": -3.5,
+                "RightMargin": -11.5,
+                "TopMargin": 69.0,
+                "BottomMargin": 70.0,
+                "Tag": 124,
+                "ActionTag": 1904715378,
+                "Size": {
+                  "X": 241.0,
+                  "Y": 186.0
+                },
+                "Name": "Image_4",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "icons/shop_gui/icon/DEF_8.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 77,
+                "Scale9OriginY": 107,
+                "Scale9Width": 81,
+                "Scale9Height": 111,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 113.0,
+                  "Y": 162.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 1.0398,
+                  "Y": 1.0
+                },
+                "HorizontalEdge": "LeftEdge",
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": -4.5,
+                "RightMargin": -4.5,
+                "Tag": 123,
+                "ActionTag": 1272926759,
+                "Size": {
+                  "X": 235.0,
+                  "Y": 325.0
+                },
+                "Name": "imv_entity",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "LabelText": "entity name",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "fonts/soji_12.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 117.0,
+                  "Y": 295.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5177,
+                  "Y": 0.9092
+                },
+                "PreSize": {
+                  "X": 0.4558,
+                  "Y": 0.0585
+                },
+                "VerticalEdge": "TopEdge",
+                "LeftMargin": 65.5,
+                "RightMargin": 57.5,
+                "TopMargin": 20.0,
+                "BottomMargin": 286.0,
+                "Tag": 117,
+                "ActionTag": -1420989191,
+                "Size": {
+                  "X": 103.0,
+                  "Y": 19.0
+                },
+                "Name": "lb_entity_name",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "shop/shop_gui/info.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "shop/shop_gui/info.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "shop/shop_gui/info.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 15,
+                "Scale9Width": 7,
+                "Scale9Height": 9,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 197.5,
+                  "Y": 295.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8739,
+                  "Y": 0.9092
+                },
+                "PreSize": {
+                  "X": 0.1637,
+                  "Y": 0.12
+                },
+                "HorizontalEdge": "RightEdge",
+                "VerticalEdge": "TopEdge",
+                "LeftMargin": 179.0,
+                "RightMargin": 10.0,
+                "TopMargin": 10.0,
+                "BottomMargin": 276.0,
+                "Tag": 116,
+                "ActionTag": 616283555,
+                "Size": {
+                  "X": 37.0,
+                  "Y": 39.0
+                },
+                "Name": "btn_info",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "LabelText": "1s",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "fonts/soji_12.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 40.0,
+                  "Y": 86.4287
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.177,
+                  "Y": 0.2659
+                },
+                "PreSize": {
+                  "X": 0.1239,
+                  "Y": 0.0585
+                },
+                "HorizontalEdge": "LeftEdge",
+                "LeftMargin": 40.0,
+                "RightMargin": 158.0,
+                "TopMargin": 229.0713,
+                "BottomMargin": 76.9287,
+                "Tag": 118,
+                "ActionTag": -911386293,
+                "Size": {
+                  "X": 28.0,
+                  "Y": 19.0
+                },
+                "Name": "lb_time_build",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "LabelText": "112/221",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "fonts/soji_12.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 176.5,
+                  "Y": 87.4049
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.781,
+                  "Y": 0.2689
+                },
+                "PreSize": {
+                  "X": 0.3053,
+                  "Y": 0.0585
+                },
+                "HorizontalEdge": "RightEdge",
+                "LeftMargin": 142.0,
+                "RightMargin": 15.0,
+                "TopMargin": 228.0951,
+                "BottomMargin": 77.9049,
+                "Tag": 119,
+                "ActionTag": -1982974974,
+                "Size": {
+                  "X": 69.0,
+                  "Y": 19.0
+                },
+                "Name": "lb_cur_per_total",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "shop/shop_gui/time.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 9,
+                "Scale9OriginY": 13,
+                "Scale9Width": 10,
+                "Scale9Height": 16,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 30.2606,
+                  "Y": 91.7571
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1339,
+                  "Y": 0.2823
+                },
+                "PreSize": {
+                  "X": 0.1239,
+                  "Y": 0.1292
+                },
+                "LeftMargin": 16.2606,
+                "RightMargin": 181.7394,
+                "TopMargin": 212.2429,
+                "BottomMargin": 70.7571,
+                "Tag": 120,
+                "ActionTag": -1264388392,
+                "Size": {
+                  "X": 28.0,
+                  "Y": 42.0
+                },
+                "Name": "imv_dhc",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "shop/shop_gui/gold.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 9,
+                "Scale9OriginY": 9,
+                "Scale9Width": 10,
+                "Scale9Height": 12,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 192.0,
+                  "Y": 37.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8496,
+                  "Y": 0.1154
+                },
+                "PreSize": {
+                  "X": 0.1239,
+                  "Y": 0.0923
+                },
+                "HorizontalEdge": "RightEdge",
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 178.0,
+                "RightMargin": 20.0,
+                "TopMargin": 272.5,
+                "BottomMargin": 22.5,
+                "Tag": 121,
+                "ActionTag": -832032148,
+                "Size": {
+                  "X": 28.0,
+                  "Y": 30.0
+                },
+                "Name": "imv_type_resource",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "LabelText": "2000000",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "fonts/soji_16.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 108.0,
+                  "Y": 37.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4779,
+                  "Y": 0.1138
+                },
+                "PreSize": {
+                  "X": 0.4956,
+                  "Y": 0.0769
+                },
+                "HorizontalEdge": "RightEdge",
+                "LeftMargin": 52.0,
+                "RightMargin": 62.0,
+                "TopMargin": 275.5,
+                "BottomMargin": 24.5,
+                "Tag": 122,
+                "ActionTag": -1747264376,
+                "Size": {
+                  "X": 112.0,
+                  "Y": 25.0
+                },
+                "Name": "lb_cost",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "LabelText": "Require town hall level 9",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "fonts/soji_12.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 113.9132,
+                  "Y": 87.0413
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.504,
+                  "Y": 0.2678
+                },
+                "PreSize": {
+                  "X": 0.8363,
+                  "Y": 0.0585
+                },
+                "LeftMargin": 19.4132,
+                "RightMargin": 17.5868,
+                "TopMargin": 228.4586,
+                "BottomMargin": 77.5413,
+                "Tag": 121,
+                "ActionTag": 99644997,
+                "Size": {
+                  "X": 189.0,
+                  "Y": 19.0
+                },
+                "VisibleForFrame": false,
+                "Name": "lb_require",
+                "ctype": "TextBMFontObjectData"
+              }
+            ],
+            "ActionTag": 1386078600,
+            "Size": {
+              "X": 226.0,
+              "Y": 325.0
+            },
+            "Name": "btn_item",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 960.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../fonts/soji_12.fnt",
+        "../fonts/soji_12.png",
+        "../fonts/soji_16.fnt",
+        "../fonts/soji_16.png",
+        "../icons/shop_gui/icon/DEF_8.png",
+        "shop_gui/catalogy_bg.png",
+        "shop_gui/gold.png",
+        "shop_gui/info.png",
+        "shop_gui/slot.png",
+        "shop_gui/time.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

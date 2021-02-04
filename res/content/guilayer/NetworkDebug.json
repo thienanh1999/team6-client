@@ -1,0 +1,155 @@
+{
+  "ID": "7c51ab34-05d5-44e9-9854-a4110106fa19",
+  "Version": "3.10.0.0",
+  "Name": "NetworkDebug",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 78,
+        "Children": [
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/upgrade_building_gui/button.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/upgrade_building_gui/button.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/upgrade_building_gui/button.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 134,
+            "Scale9Height": 45,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 113.4844,
+              "Y": 579.2435
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1182,
+              "Y": 0.9051
+            },
+            "PreSize": {
+              "X": 0.1708,
+              "Y": 0.1047
+            },
+            "LeftMargin": 31.4844,
+            "RightMargin": 764.5156,
+            "TopMargin": 27.2565,
+            "BottomMargin": 545.7435,
+            "Tag": 80,
+            "Children": [
+              {
+                "LabelText": "Populate User",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "res/content/fonts/soji_12.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 82.0,
+                  "Y": 33.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.6951,
+                  "Y": 0.2836
+                },
+                "LeftMargin": 25.0,
+                "RightMargin": 25.0,
+                "TopMargin": 24.0,
+                "BottomMargin": 24.0,
+                "Tag": 81,
+                "ActionTag": 1925968,
+                "Size": {
+                  "X": 114.0,
+                  "Y": 19.0
+                },
+                "Name": "BitmapFontLabel_1",
+                "ctype": "TextBMFontObjectData"
+              }
+            ],
+            "ActionTag": -959334898,
+            "Size": {
+              "X": 164.0,
+              "Y": 67.0
+            },
+            "Name": "populateButton",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 960.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "res/content/fonts/soji_12.fnt",
+        "res/content/fonts/soji_12.png",
+        "res/content/guis/upgrade_building_gui/button.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

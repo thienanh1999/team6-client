@@ -1,0 +1,120 @@
+{
+  "ID": "660ec107-38bb-49f3-a280-c3fd114ec360",
+  "Version": "3.10.0.0",
+  "Name": "Time",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 75,
+        "Children": [
+          {
+            "LabelText": "Battle starts in:",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "fonts/soji_16.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 43.5676,
+              "Y": 621.0641
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4357,
+              "Y": 0.9704
+            },
+            "PreSize": {
+              "X": 1.71,
+              "Y": 0.0391
+            },
+            "HorizontalEdge": "LeftEdge",
+            "LeftMargin": -41.9324,
+            "RightMargin": -29.0676,
+            "TopMargin": 6.4359,
+            "BottomMargin": 608.5641,
+            "Tag": 77,
+            "ActionTag": 845805797,
+            "Size": {
+              "X": 171.0,
+              "Y": 25.0
+            },
+            "Name": "State",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "LabelText": "0:30",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "fonts/soji_24.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 45.2971,
+              "Y": 593.5988
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.453,
+              "Y": 0.9275
+            },
+            "PreSize": {
+              "X": 0.79,
+              "Y": 0.0594
+            },
+            "LeftMargin": 5.7971,
+            "RightMargin": 15.2029,
+            "TopMargin": 27.4012,
+            "BottomMargin": 574.5988,
+            "Tag": 76,
+            "ActionTag": 1353014902,
+            "Size": {
+              "X": 79.0,
+              "Y": 38.0
+            },
+            "Name": "Time",
+            "ctype": "TextBMFontObjectData"
+          }
+        ],
+        "Size": {
+          "X": 100.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../fonts/soji_16.fnt",
+        "../fonts/soji_16.png",
+        "../fonts/soji_24.fnt",
+        "../fonts/soji_24.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

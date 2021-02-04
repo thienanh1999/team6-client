@@ -1,0 +1,115 @@
+{
+  "ID": "48deb2d3-a4d5-405d-8cd2-bf7601d86f7f",
+  "Version": "3.10.0.0",
+  "Name": "Loading",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 105,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Map/cloud_2.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 500.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 2.5,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 3.64,
+              "Y": 1.0
+            },
+            "LeftMargin": 500.0,
+            "RightMargin": -1028.0,
+            "Tag": 106,
+            "ActionTag": -1318607534,
+            "Size": {
+              "X": 728.0,
+              "Y": 480.0
+            },
+            "Name": "phai",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Map/cloud_1.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 1.0
+            },
+            "Position": {
+              "X": -300.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -1.5,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 4.0,
+              "Y": 1.0
+            },
+            "LeftMargin": -1100.0,
+            "RightMargin": 500.0,
+            "Tag": 107,
+            "ActionTag": -913815373,
+            "Size": {
+              "X": 800.0,
+              "Y": 480.0
+            },
+            "Name": "trai",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 200.0,
+          "Y": 480.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../Map/cloud_1.png",
+        "../Map/cloud_2.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

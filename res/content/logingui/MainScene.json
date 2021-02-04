@@ -1,0 +1,247 @@
+{
+  "ID": "a2ee0952-26b5-49ae-8bf9-4f1d6279b798",
+  "Version": "3.10.0.0",
+  "Name": "MainScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "logingui/loading.jpg",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 487.0,
+              "Y": 319.0
+            },
+            "Scale": {
+              "ScaleX": 1.35,
+              "ScaleY": 1.35
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5073,
+              "Y": 0.4984
+            },
+            "PreSize": {
+              "X": 0.8333,
+              "Y": 0.75
+            },
+            "LeftMargin": 87.0,
+            "RightMargin": 73.0,
+            "TopMargin": 81.0,
+            "BottomMargin": 79.0,
+            "Tag": 3,
+            "ActionTag": 240112372,
+            "Size": {
+              "X": 800.0,
+              "Y": 480.0
+            },
+            "Name": "loading_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 40,
+            "IsCustomSize": true,
+            "LabelText": "",
+            "PlaceHolderText": "Text Field",
+            "MaxLengthText": 10,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.52,
+              "ScaleY": 0.3
+            },
+            "Position": {
+              "X": 446.0,
+              "Y": 177.0001
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "RotationSkewY": 0.0009,
+            "CColor": {
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4646,
+              "Y": 0.2766
+            },
+            "PreSize": {
+              "X": 0.1042,
+              "Y": 0.0781
+            },
+            "LeftMargin": 394.0,
+            "RightMargin": 466.0,
+            "TopMargin": 427.9999,
+            "BottomMargin": 162.0,
+            "CallBackType": "Click",
+            "Tag": 4,
+            "ActionTag": 1077329789,
+            "Size": {
+              "X": 100.0,
+              "Y": 50.0
+            },
+            "Alpha": 239,
+            "Name": "TextField_1",
+            "ctype": "TextFieldObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "logingui/okbutton.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "logingui/okbutton.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "logingui/okbutton.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 88,
+            "Scale9Height": 22,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 674.0,
+              "Y": 191.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7021,
+              "Y": 0.2984
+            },
+            "PreSize": {
+              "X": 0.1229,
+              "Y": 0.0688
+            },
+            "LeftMargin": 615.0,
+            "RightMargin": 227.0,
+            "TopMargin": 427.0,
+            "BottomMargin": 169.0,
+            "Tag": 7,
+            "Children": [
+              {
+                "LabelText": "Login",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "fonts/soji_24.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 59.0,
+                  "Y": 22.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.678,
+                  "Y": 0.8636
+                },
+                "HorizontalEdge": "LeftEdge",
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 19.0,
+                "RightMargin": 19.0,
+                "TopMargin": 3.0,
+                "BottomMargin": 3.0,
+                "Tag": 9,
+                "ActionTag": 492238341,
+                "Size": {
+                  "X": 80.0,
+                  "Y": 38.0
+                },
+                "Name": "BitmapFontLabel_2",
+                "ctype": "TextBMFontObjectData"
+              }
+            ],
+            "ActionTag": 1080940208,
+            "Size": {
+              "X": 118.0,
+              "Y": 44.0
+            },
+            "Name": "LoginButton",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 960.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "fonts/soji_24.fnt",
+        "fonts/soji_24.png",
+        "logingui/loading.jpg",
+        "logingui/okbutton.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

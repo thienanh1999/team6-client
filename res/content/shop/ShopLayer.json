@@ -1,0 +1,1678 @@
+{
+  "ID": "a8d2c3d6-05b7-42e8-93d1-4895866159e2",
+  "Version": "3.10.0.0",
+  "Name": "ShopLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 23,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "shop/shop_gui/nen2.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 400.0,
+              "Y": 240.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "HorizontalEdge": "LeftEdge",
+            "VerticalEdge": "TopEdge",
+            "Tag": 24,
+            "ActionTag": 2023323402,
+            "Size": {
+              "X": 800.0,
+              "Y": 480.0
+            },
+            "Name": "background",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "shop/shop_gui/close.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "shop/shop_gui/close.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "shop/shop_gui/close.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 17,
+            "Scale9Height": 25,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 753.6355,
+              "Y": 444.8284
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.942,
+              "Y": 0.9267
+            },
+            "PreSize": {
+              "X": 0.0587,
+              "Y": 0.0979
+            },
+            "LeftMargin": 730.1355,
+            "RightMargin": 22.8645,
+            "TopMargin": 11.6716,
+            "BottomMargin": 421.3284,
+            "CallBackType": "Click",
+            "Tag": 26,
+            "ActionTag": -1247073215,
+            "Size": {
+              "X": 47.0,
+              "Y": 47.0
+            },
+            "Name": "btn_close",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "DirectionType": "Vertical",
+            "HorizontalType": "Align_HorizontalCenter",
+            "ScrollDirectionType": 0,
+            "ClipAble": false,
+            "BackColorAlpha": 0,
+            "ComboBoxIndex": 1,
+            "SingleColor": {},
+            "FirstColor": {
+              "R": 150,
+              "G": 150
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 10.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0208
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.8333
+            },
+            "HorizontalEdge": "LeftEdge",
+            "VerticalEdge": "BottomEdge",
+            "TopMargin": 70.0,
+            "BottomMargin": 10.0,
+            "Tag": 27,
+            "Children": [
+              {
+                "ItemMargin": 20,
+                "ScrollDirectionType": 0,
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {},
+                "FirstColor": {
+                  "R": 150,
+                  "G": 150
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 17.5,
+                  "Y": 200.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0219,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.9563,
+                  "Y": 0.5
+                },
+                "LeftMargin": 17.5,
+                "RightMargin": 17.5,
+                "BottomMargin": 200.0,
+                "Tag": 28,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "shop/shop_gui/slot_catalogy.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 79,
+                    "Scale9OriginY": 61,
+                    "Scale9Width": 83,
+                    "Scale9Height": 64,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 120.5,
+                      "Y": 107.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1575,
+                      "Y": 0.535
+                    },
+                    "PreSize": {
+                      "X": 0.315,
+                      "Y": 0.93
+                    },
+                    "RightMargin": 524.0,
+                    "BottomMargin": 14.0,
+                    "Tag": 55,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "shop/shop_gui/type_buy_res.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 79,
+                        "Scale9OriginY": 61,
+                        "Scale9Width": 83,
+                        "Scale9Height": 64,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 120.5,
+                          "Y": 93.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PercentWidthEnable": true,
+                        "PercentHeightEnable": true,
+                        "PercentWidthEnabled": true,
+                        "PercentHeightEnabled": true,
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 1.0
+                        },
+                        "HorizontalEdge": "LeftEdge",
+                        "VerticalEdge": "TopEdge",
+                        "Tag": 34,
+                        "ActionTag": -1800842630,
+                        "Size": {
+                          "X": 241.0,
+                          "Y": 186.0
+                        },
+                        "Name": "Image_1",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 14,
+                        "ButtonText": "",
+                        "TextColor": {
+                          "R": 65,
+                          "G": 65,
+                          "B": 70
+                        },
+                        "DisabledFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Disable.png",
+                          "Plist": ""
+                        },
+                        "PressedFileData": {
+                          "Type": "Normal",
+                          "Path": "shop/shop_gui/title_background_press.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "Normal",
+                          "Path": "shop/shop_gui/title_background.png",
+                          "Plist": ""
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 196,
+                        "Scale9Height": 31,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 120.4598,
+                          "Y": 18.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.4998,
+                          "Y": 0.0968
+                        },
+                        "PercentWidthEnable": true,
+                        "PercentWidthEnabled": true,
+                        "PreSize": {
+                          "X": 0.9378,
+                          "Y": 0.2849
+                        },
+                        "HorizontalEdge": "LeftEdge",
+                        "VerticalEdge": "BottomEdge",
+                        "LeftMargin": 7.4549,
+                        "RightMargin": 7.5353,
+                        "TopMargin": 141.5,
+                        "BottomMargin": -8.5,
+                        "Tag": 31,
+                        "Children": [
+                          {
+                            "LabelText": "Treasures",
+                            "LabelBMFontFile_CNB": {
+                              "Type": "Normal",
+                              "Path": "fonts/soji_16.fnt",
+                              "Plist": ""
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 124.5,
+                              "Y": 26.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.5509,
+                              "Y": 0.4906
+                            },
+                            "PreSize": {
+                              "X": 0.4734,
+                              "Y": 0.4717
+                            },
+                            "HorizontalEdge": "LeftEdge",
+                            "VerticalEdge": "BottomEdge",
+                            "LeftMargin": 71.0,
+                            "RightMargin": 48.0098,
+                            "TopMargin": 14.5,
+                            "BottomMargin": 13.5,
+                            "Tag": 64,
+                            "ActionTag": 241518425,
+                            "Size": {
+                              "X": 107.0,
+                              "Y": 25.0
+                            },
+                            "Name": "BitmapFontLabel_2",
+                            "ctype": "TextBMFontObjectData"
+                          }
+                        ],
+                        "ActionTag": -1481232437,
+                        "Size": {
+                          "X": 226.0098,
+                          "Y": 53.0
+                        },
+                        "Name": "btn_treasures",
+                        "ctype": "ButtonObjectData"
+                      }
+                    ],
+                    "ActionTag": 1775025809,
+                    "Size": {
+                      "X": 241.0,
+                      "Y": 186.0
+                    },
+                    "Name": "treasure",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "shop/shop_gui/slot_catalogy.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 79,
+                    "Scale9OriginY": 61,
+                    "Scale9Width": 83,
+                    "Scale9Height": 64,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 381.5,
+                      "Y": 107.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4987,
+                      "Y": 0.535
+                    },
+                    "PreSize": {
+                      "X": 0.315,
+                      "Y": 0.93
+                    },
+                    "LeftMargin": 261.0,
+                    "RightMargin": 263.0,
+                    "BottomMargin": 14.0,
+                    "Tag": 58,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "shop/shop_gui/type_res.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 79,
+                        "Scale9OriginY": 61,
+                        "Scale9Width": 83,
+                        "Scale9Height": 64,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 120.5,
+                          "Y": 93.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PercentWidthEnable": true,
+                        "PercentHeightEnable": true,
+                        "PercentWidthEnabled": true,
+                        "PercentHeightEnabled": true,
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 1.0
+                        },
+                        "HorizontalEdge": "LeftEdge",
+                        "VerticalEdge": "TopEdge",
+                        "Tag": 59,
+                        "ActionTag": 850976111,
+                        "Size": {
+                          "X": 241.0,
+                          "Y": 186.0
+                        },
+                        "Name": "Image_1",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 14,
+                        "ButtonText": "",
+                        "TextColor": {
+                          "R": 65,
+                          "G": 65,
+                          "B": 70
+                        },
+                        "DisabledFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Disable.png",
+                          "Plist": ""
+                        },
+                        "PressedFileData": {
+                          "Type": "Normal",
+                          "Path": "shop/shop_gui/title_background_press.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "Normal",
+                          "Path": "shop/shop_gui/title_background.png",
+                          "Plist": ""
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 196,
+                        "Scale9Height": 31,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 120.4598,
+                          "Y": 18.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.4998,
+                          "Y": 0.0968
+                        },
+                        "PercentWidthEnable": true,
+                        "PercentWidthEnabled": true,
+                        "PreSize": {
+                          "X": 0.9378,
+                          "Y": 0.2849
+                        },
+                        "HorizontalEdge": "LeftEdge",
+                        "VerticalEdge": "BottomEdge",
+                        "LeftMargin": 7.4549,
+                        "RightMargin": 7.5353,
+                        "TopMargin": 141.5,
+                        "BottomMargin": -8.5,
+                        "Tag": 60,
+                        "Children": [
+                          {
+                            "LabelText": "Resources",
+                            "LabelBMFontFile_CNB": {
+                              "Type": "Normal",
+                              "Path": "fonts/soji_16.fnt",
+                              "Plist": ""
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 126.0,
+                              "Y": 26.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.5575,
+                              "Y": 0.4906
+                            },
+                            "PreSize": {
+                              "X": 0.4867,
+                              "Y": 0.4717
+                            },
+                            "HorizontalEdge": "LeftEdge",
+                            "VerticalEdge": "BottomEdge",
+                            "LeftMargin": 71.0,
+                            "RightMargin": 45.0098,
+                            "TopMargin": 14.5,
+                            "BottomMargin": 13.5,
+                            "Tag": 65,
+                            "ActionTag": -293728410,
+                            "Size": {
+                              "X": 110.0,
+                              "Y": 25.0
+                            },
+                            "Name": "BitmapFontLabel_3",
+                            "ctype": "TextBMFontObjectData"
+                          }
+                        ],
+                        "ActionTag": 704473719,
+                        "Size": {
+                          "X": 226.0098,
+                          "Y": 53.0
+                        },
+                        "Name": "btn_resources",
+                        "ctype": "ButtonObjectData"
+                      }
+                    ],
+                    "ActionTag": 384837014,
+                    "ZOrder": 1,
+                    "Size": {
+                      "X": 241.0,
+                      "Y": 186.0
+                    },
+                    "Name": "resources",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "shop/shop_gui/slot_catalogy.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 79,
+                    "Scale9OriginY": 61,
+                    "Scale9Width": 83,
+                    "Scale9Height": 64,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 642.5,
+                      "Y": 107.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8399,
+                      "Y": 0.535
+                    },
+                    "PreSize": {
+                      "X": 0.315,
+                      "Y": 0.93
+                    },
+                    "LeftMargin": 522.0,
+                    "RightMargin": 2.0,
+                    "BottomMargin": 14.0,
+                    "Tag": 61,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "shop/shop_gui/type_dc.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 79,
+                        "Scale9OriginY": 61,
+                        "Scale9Width": 83,
+                        "Scale9Height": 64,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 120.5,
+                          "Y": 93.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PercentWidthEnable": true,
+                        "PercentHeightEnable": true,
+                        "PercentWidthEnabled": true,
+                        "PercentHeightEnabled": true,
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 1.0
+                        },
+                        "HorizontalEdge": "LeftEdge",
+                        "VerticalEdge": "TopEdge",
+                        "Tag": 62,
+                        "ActionTag": 1723017457,
+                        "Size": {
+                          "X": 241.0,
+                          "Y": 186.0
+                        },
+                        "Name": "Image_1",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 14,
+                        "ButtonText": "",
+                        "TextColor": {
+                          "R": 65,
+                          "G": 65,
+                          "B": 70
+                        },
+                        "DisabledFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Disable.png",
+                          "Plist": ""
+                        },
+                        "PressedFileData": {
+                          "Type": "Normal",
+                          "Path": "shop/shop_gui/title_background_press.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "Normal",
+                          "Path": "shop/shop_gui/title_background.png",
+                          "Plist": ""
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 196,
+                        "Scale9Height": 31,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 120.4598,
+                          "Y": 18.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.4998,
+                          "Y": 0.0968
+                        },
+                        "PercentWidthEnable": true,
+                        "PercentWidthEnabled": true,
+                        "PreSize": {
+                          "X": 0.9378,
+                          "Y": 0.2849
+                        },
+                        "HorizontalEdge": "LeftEdge",
+                        "VerticalEdge": "BottomEdge",
+                        "LeftMargin": 7.4549,
+                        "RightMargin": 7.5353,
+                        "TopMargin": 141.5,
+                        "BottomMargin": -8.5,
+                        "Tag": 63,
+                        "Children": [
+                          {
+                            "LabelText": "Decorations",
+                            "LabelBMFontFile_CNB": {
+                              "Type": "Normal",
+                              "Path": "fonts/soji_16.fnt",
+                              "Plist": ""
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 135.5,
+                              "Y": 26.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.5995,
+                              "Y": 0.4906
+                            },
+                            "PreSize": {
+                              "X": 0.5486,
+                              "Y": 0.4717
+                            },
+                            "HorizontalEdge": "LeftEdge",
+                            "VerticalEdge": "BottomEdge",
+                            "LeftMargin": 73.5,
+                            "RightMargin": 28.5098,
+                            "TopMargin": 14.5,
+                            "BottomMargin": 13.5,
+                            "Tag": 66,
+                            "ActionTag": -1286036430,
+                            "Size": {
+                              "X": 124.0,
+                              "Y": 25.0
+                            },
+                            "Name": "BitmapFontLabel_4",
+                            "ctype": "TextBMFontObjectData"
+                          }
+                        ],
+                        "ActionTag": 706013736,
+                        "Size": {
+                          "X": 226.0098,
+                          "Y": 53.0
+                        },
+                        "Name": "btn_decorations",
+                        "ctype": "ButtonObjectData"
+                      }
+                    ],
+                    "ActionTag": 1690300179,
+                    "ZOrder": 2,
+                    "Size": {
+                      "X": 241.0,
+                      "Y": 186.0
+                    },
+                    "Name": "decorations",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 4780560,
+                "Size": {
+                  "X": 765.0,
+                  "Y": 200.0
+                },
+                "Name": "line1",
+                "ctype": "ListViewObjectData"
+              },
+              {
+                "ItemMargin": 20,
+                "VerticalType": "Align_VerticalCenter",
+                "ScrollDirectionType": 0,
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {},
+                "FirstColor": {
+                  "R": 150,
+                  "G": 150
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 17.5,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0219,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.9563,
+                  "Y": 0.5
+                },
+                "LeftMargin": 17.5,
+                "RightMargin": 17.5,
+                "TopMargin": 200.0,
+                "Tag": 29,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "shop/shop_gui/slot_catalogy.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 79,
+                    "Scale9OriginY": 61,
+                    "Scale9Width": 83,
+                    "Scale9Height": 64,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 120.5,
+                      "Y": 100.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1575,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.315,
+                      "Y": 0.93
+                    },
+                    "RightMargin": 524.0,
+                    "TopMargin": 7.0,
+                    "BottomMargin": 7.0,
+                    "Tag": 67,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "shop/shop_gui/type_army.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 79,
+                        "Scale9OriginY": 61,
+                        "Scale9Width": 83,
+                        "Scale9Height": 64,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 120.5,
+                          "Y": 93.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PercentWidthEnable": true,
+                        "PercentHeightEnable": true,
+                        "PercentWidthEnabled": true,
+                        "PercentHeightEnabled": true,
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 1.0
+                        },
+                        "HorizontalEdge": "LeftEdge",
+                        "VerticalEdge": "TopEdge",
+                        "Tag": 68,
+                        "ActionTag": 1275546001,
+                        "Size": {
+                          "X": 241.0,
+                          "Y": 186.0
+                        },
+                        "Name": "Image_1",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 14,
+                        "ButtonText": "",
+                        "TextColor": {
+                          "R": 65,
+                          "G": 65,
+                          "B": 70
+                        },
+                        "DisabledFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Disable.png",
+                          "Plist": ""
+                        },
+                        "PressedFileData": {
+                          "Type": "Normal",
+                          "Path": "shop/shop_gui/title_background_press.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "Normal",
+                          "Path": "shop/shop_gui/title_background.png",
+                          "Plist": ""
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 196,
+                        "Scale9Height": 31,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 120.4598,
+                          "Y": 18.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.4998,
+                          "Y": 0.0968
+                        },
+                        "PercentWidthEnable": true,
+                        "PercentWidthEnabled": true,
+                        "PreSize": {
+                          "X": 0.9378,
+                          "Y": 0.2849
+                        },
+                        "HorizontalEdge": "LeftEdge",
+                        "VerticalEdge": "BottomEdge",
+                        "LeftMargin": 7.4549,
+                        "RightMargin": 7.5353,
+                        "TopMargin": 141.5,
+                        "BottomMargin": -8.5,
+                        "Tag": 69,
+                        "Children": [
+                          {
+                            "LabelText": "Army",
+                            "LabelBMFontFile_CNB": {
+                              "Type": "Normal",
+                              "Path": "fonts/soji_16.fnt",
+                              "Plist": ""
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 116.5,
+                              "Y": 26.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.5155,
+                              "Y": 0.4906
+                            },
+                            "PreSize": {
+                              "X": 0.2655,
+                              "Y": 0.4717
+                            },
+                            "HorizontalEdge": "LeftEdge",
+                            "VerticalEdge": "BottomEdge",
+                            "LeftMargin": 86.5,
+                            "RightMargin": 79.5098,
+                            "TopMargin": 14.5,
+                            "BottomMargin": 13.5,
+                            "Tag": 67,
+                            "ActionTag": -1820846837,
+                            "Size": {
+                              "X": 60.0,
+                              "Y": 25.0
+                            },
+                            "Name": "BitmapFontLabel_4_0",
+                            "ctype": "TextBMFontObjectData"
+                          }
+                        ],
+                        "ActionTag": -1416575930,
+                        "Size": {
+                          "X": 226.0098,
+                          "Y": 53.0
+                        },
+                        "Name": "btn_army",
+                        "ctype": "ButtonObjectData"
+                      }
+                    ],
+                    "ActionTag": -1675308499,
+                    "Size": {
+                      "X": 241.0,
+                      "Y": 186.0
+                    },
+                    "Name": "army",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "shop/shop_gui/slot_catalogy.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 79,
+                    "Scale9OriginY": 61,
+                    "Scale9Width": 83,
+                    "Scale9Height": 64,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 381.5,
+                      "Y": 100.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4987,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.315,
+                      "Y": 0.93
+                    },
+                    "LeftMargin": 261.0,
+                    "RightMargin": 263.0,
+                    "TopMargin": 7.0,
+                    "BottomMargin": 7.0,
+                    "Tag": 70,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "shop/shop_gui/type_defense.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 79,
+                        "Scale9OriginY": 61,
+                        "Scale9Width": 83,
+                        "Scale9Height": 64,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 120.5,
+                          "Y": 93.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PercentWidthEnable": true,
+                        "PercentHeightEnable": true,
+                        "PercentWidthEnabled": true,
+                        "PercentHeightEnabled": true,
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 1.0
+                        },
+                        "HorizontalEdge": "LeftEdge",
+                        "VerticalEdge": "TopEdge",
+                        "Tag": 71,
+                        "ActionTag": -338189968,
+                        "Size": {
+                          "X": 241.0,
+                          "Y": 186.0
+                        },
+                        "Name": "Image_1",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 14,
+                        "ButtonText": "",
+                        "TextColor": {
+                          "R": 65,
+                          "G": 65,
+                          "B": 70
+                        },
+                        "DisabledFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Disable.png",
+                          "Plist": ""
+                        },
+                        "PressedFileData": {
+                          "Type": "Normal",
+                          "Path": "shop/shop_gui/title_background_press.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "Normal",
+                          "Path": "shop/shop_gui/title_background.png",
+                          "Plist": ""
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 196,
+                        "Scale9Height": 31,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 120.5049,
+                          "Y": 18.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.0968
+                        },
+                        "PercentWidthEnable": true,
+                        "PercentWidthEnabled": true,
+                        "PreSize": {
+                          "X": 0.9378,
+                          "Y": 0.2849
+                        },
+                        "HorizontalEdge": "LeftEdge",
+                        "VerticalEdge": "BottomEdge",
+                        "LeftMargin": 7.5,
+                        "RightMargin": 7.4902,
+                        "TopMargin": 141.5,
+                        "BottomMargin": -8.5,
+                        "Tag": 72,
+                        "Children": [
+                          {
+                            "LabelText": "Defense",
+                            "LabelBMFontFile_CNB": {
+                              "Type": "Normal",
+                              "Path": "fonts/soji_16.fnt",
+                              "Plist": ""
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 124.0,
+                              "Y": 26.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.5486,
+                              "Y": 0.4906
+                            },
+                            "PreSize": {
+                              "X": 0.3982,
+                              "Y": 0.4717
+                            },
+                            "HorizontalEdge": "LeftEdge",
+                            "VerticalEdge": "BottomEdge",
+                            "LeftMargin": 79.0,
+                            "RightMargin": 57.0098,
+                            "TopMargin": 14.5,
+                            "BottomMargin": 13.5,
+                            "Tag": 68,
+                            "ActionTag": 1631858024,
+                            "Size": {
+                              "X": 90.0,
+                              "Y": 25.0
+                            },
+                            "Name": "BitmapFontLabel_4_0",
+                            "ctype": "TextBMFontObjectData"
+                          }
+                        ],
+                        "ActionTag": 1488236717,
+                        "Size": {
+                          "X": 226.0098,
+                          "Y": 53.0
+                        },
+                        "Name": "btn_defense",
+                        "ctype": "ButtonObjectData"
+                      }
+                    ],
+                    "ActionTag": -195651405,
+                    "ZOrder": 1,
+                    "Size": {
+                      "X": 241.0,
+                      "Y": 186.0
+                    },
+                    "Name": "defense",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "shop/shop_gui/slot_catalogy.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 79,
+                    "Scale9OriginY": 61,
+                    "Scale9Width": 83,
+                    "Scale9Height": 64,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 642.5,
+                      "Y": 100.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8399,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.315,
+                      "Y": 0.93
+                    },
+                    "LeftMargin": 522.0,
+                    "RightMargin": 2.0,
+                    "TopMargin": 7.0,
+                    "BottomMargin": 7.0,
+                    "Tag": 73,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "shop/shop_gui/type_sheild.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 79,
+                        "Scale9OriginY": 61,
+                        "Scale9Width": 83,
+                        "Scale9Height": 64,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 120.5,
+                          "Y": 93.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PercentWidthEnable": true,
+                        "PercentHeightEnable": true,
+                        "PercentWidthEnabled": true,
+                        "PercentHeightEnabled": true,
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 1.0
+                        },
+                        "HorizontalEdge": "LeftEdge",
+                        "VerticalEdge": "TopEdge",
+                        "Tag": 74,
+                        "ActionTag": -868580245,
+                        "Size": {
+                          "X": 241.0,
+                          "Y": 186.0
+                        },
+                        "Name": "Image_1",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 14,
+                        "ButtonText": "",
+                        "TextColor": {
+                          "R": 65,
+                          "G": 65,
+                          "B": 70
+                        },
+                        "DisabledFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Disable.png",
+                          "Plist": ""
+                        },
+                        "PressedFileData": {
+                          "Type": "Normal",
+                          "Path": "shop/shop_gui/title_background_press.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "Normal",
+                          "Path": "shop/shop_gui/title_background.png",
+                          "Plist": ""
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 196,
+                        "Scale9Height": 31,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 120.4598,
+                          "Y": 18.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.4998,
+                          "Y": 0.0968
+                        },
+                        "PercentWidthEnable": true,
+                        "PercentWidthEnabled": true,
+                        "PreSize": {
+                          "X": 0.9378,
+                          "Y": 0.2849
+                        },
+                        "HorizontalEdge": "LeftEdge",
+                        "VerticalEdge": "BottomEdge",
+                        "LeftMargin": 7.4549,
+                        "RightMargin": 7.5353,
+                        "TopMargin": 141.5,
+                        "BottomMargin": -8.5,
+                        "Tag": 75,
+                        "Children": [
+                          {
+                            "LabelText": "Shield",
+                            "LabelBMFontFile_CNB": {
+                              "Type": "Normal",
+                              "Path": "fonts/soji_16.fnt",
+                              "Plist": ""
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 120.0,
+                              "Y": 26.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.531,
+                              "Y": 0.4906
+                            },
+                            "PreSize": {
+                              "X": 0.292,
+                              "Y": 0.4717
+                            },
+                            "HorizontalEdge": "LeftEdge",
+                            "VerticalEdge": "BottomEdge",
+                            "LeftMargin": 87.0,
+                            "RightMargin": 73.0098,
+                            "TopMargin": 14.5,
+                            "BottomMargin": 13.5,
+                            "Tag": 69,
+                            "ActionTag": -1253700730,
+                            "Size": {
+                              "X": 66.0,
+                              "Y": 25.0
+                            },
+                            "Name": "BitmapFontLabel_4_0_0",
+                            "ctype": "TextBMFontObjectData"
+                          }
+                        ],
+                        "ActionTag": 931413454,
+                        "Size": {
+                          "X": 226.0098,
+                          "Y": 53.0
+                        },
+                        "Name": "btn_shield",
+                        "ctype": "ButtonObjectData"
+                      }
+                    ],
+                    "ActionTag": -1083173615,
+                    "ZOrder": 2,
+                    "Size": {
+                      "X": 241.0,
+                      "Y": 186.0
+                    },
+                    "Name": "shield",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 1929224300,
+                "ZOrder": 1,
+                "Size": {
+                  "X": 765.0,
+                  "Y": 200.0
+                },
+                "Name": "line2",
+                "ctype": "ListViewObjectData"
+              }
+            ],
+            "ActionTag": -1878150824,
+            "Size": {
+              "X": 800.0,
+              "Y": 400.0
+            },
+            "Name": "root_list_view",
+            "ctype": "ListViewObjectData"
+          },
+          {
+            "LabelText": "SHOP",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "fonts/soji_24.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 401.1004,
+              "Y": 444.3754
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5014,
+              "Y": 0.9258
+            },
+            "PreSize": {
+              "X": 0.0988,
+              "Y": 0.0792
+            },
+            "LeftMargin": 361.6004,
+            "RightMargin": 359.3996,
+            "TopMargin": 16.6246,
+            "BottomMargin": 425.3754,
+            "Tag": 62,
+            "ActionTag": 176477723,
+            "Size": {
+              "X": 79.0,
+              "Y": 38.0
+            },
+            "Name": "lb_shop",
+            "ctype": "TextBMFontObjectData"
+          }
+        ],
+        "Size": {
+          "X": 800.0,
+          "Y": 480.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../Default/Button_Disable.png",
+        "../fonts/soji_16.fnt",
+        "../fonts/soji_16.png",
+        "../fonts/soji_24.fnt",
+        "../fonts/soji_24.png",
+        "shop_gui/close.png",
+        "shop_gui/nen2.png",
+        "shop_gui/slot_catalogy.png",
+        "shop_gui/title_background.png",
+        "shop_gui/title_background_press.png",
+        "shop_gui/type_army.png",
+        "shop_gui/type_buy_res.png",
+        "shop_gui/type_dc.png",
+        "shop_gui/type_defense.png",
+        "shop_gui/type_res.png",
+        "shop_gui/type_sheild.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

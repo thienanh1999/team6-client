@@ -1,0 +1,1966 @@
+{
+  "ID": "74b3791f-05e1-4128-8bb3-5499a7ac451b",
+  "Version": "3.10.0.0",
+  "Name": "ActionLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 61,
+        "Children": [
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/info_icon.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/info_icon.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/info_icon.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 67,
+            "Scale9Height": 79,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 61.4701,
+              "Y": 574.5191
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.064,
+              "Y": 0.8977
+            },
+            "PreSize": {
+              "X": 0.101,
+              "Y": 0.1578
+            },
+            "LeftMargin": 12.9701,
+            "RightMargin": 850.0299,
+            "TopMargin": 14.9809,
+            "BottomMargin": 524.0191,
+            "Tag": 62,
+            "Children": [
+              {
+                "LabelText": "INFO",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "res/content/fonts/soji_12.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 48.5,
+                  "Y": 15.15
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.15
+                },
+                "PreSize": {
+                  "X": 0.4536,
+                  "Y": 0.1881
+                },
+                "LeftMargin": 26.5,
+                "RightMargin": 26.5,
+                "TopMargin": 66.85,
+                "BottomMargin": 15.15,
+                "Tag": 66,
+                "ActionTag": 626010118,
+                "Size": {
+                  "X": 44.0,
+                  "Y": 19.0
+                },
+                "Name": "description",
+                "ctype": "TextBMFontObjectData"
+              }
+            ],
+            "ActionTag": 1485937996,
+            "Size": {
+              "X": 97.0,
+              "Y": 101.0
+            },
+            "Name": "info",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/upgrade_icon.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/upgrade_icon.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/upgrade_icon.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 67,
+            "Scale9Height": 79,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 165.4983,
+              "Y": 574.5187
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1724,
+              "Y": 0.8977
+            },
+            "PreSize": {
+              "X": 0.101,
+              "Y": 0.1578
+            },
+            "LeftMargin": 116.9983,
+            "RightMargin": 746.0017,
+            "TopMargin": 14.9813,
+            "BottomMargin": 524.0187,
+            "Tag": 63,
+            "Children": [
+              {
+                "LabelText": "UPGRADE",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "res/content/fonts/soji_12.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 48.5,
+                  "Y": 15.15
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.15
+                },
+                "PreSize": {
+                  "X": 0.732,
+                  "Y": 0.1881
+                },
+                "LeftMargin": 13.0,
+                "RightMargin": 13.0,
+                "TopMargin": 66.85,
+                "BottomMargin": 15.15,
+                "Tag": 67,
+                "ActionTag": 239286386,
+                "Size": {
+                  "X": 71.0,
+                  "Y": 19.0
+                },
+                "Name": "description",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "res/content/guis/upgrade_building_gui/small/elixir.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 4,
+                "Scale9OriginY": 5,
+                "Scale9Width": 6,
+                "Scale9Height": 7,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 48.5,
+                  "Y": 80.8
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.8
+                },
+                "PreSize": {
+                  "X": 0.1443,
+                  "Y": 0.1683
+                },
+                "LeftMargin": 41.5,
+                "RightMargin": 41.5,
+                "TopMargin": 11.7,
+                "BottomMargin": 72.3,
+                "Tag": 638,
+                "Children": [
+                  {
+                    "LabelText": "20",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "res/content/fonts/soji_12.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 8.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 2.2857,
+                      "Y": 1.1176
+                    },
+                    "LeftMargin": -32.0,
+                    "RightMargin": 14.0,
+                    "TopMargin": -1.0,
+                    "BottomMargin": -1.0,
+                    "Tag": 639,
+                    "ActionTag": -776657827,
+                    "Size": {
+                      "X": 32.0,
+                      "Y": 19.0
+                    },
+                    "Name": "amount",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": -436549273,
+                "Size": {
+                  "X": 14.0,
+                  "Y": 17.0
+                },
+                "Name": "elixirIcon",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "res/content/guis/upgrade_building_gui/small/dElixir.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 4,
+                "Scale9OriginY": 5,
+                "Scale9Width": 6,
+                "Scale9Height": 7,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 48.5,
+                  "Y": 80.8
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.8
+                },
+                "PreSize": {
+                  "X": 0.1443,
+                  "Y": 0.1683
+                },
+                "LeftMargin": 41.5,
+                "RightMargin": 41.5,
+                "TopMargin": 11.7,
+                "BottomMargin": 72.3,
+                "Tag": 640,
+                "Children": [
+                  {
+                    "LabelText": "20",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "res/content/fonts/soji_12.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 8.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 2.2857,
+                      "Y": 1.1176
+                    },
+                    "LeftMargin": -32.0,
+                    "RightMargin": 14.0,
+                    "TopMargin": -1.0,
+                    "BottomMargin": -1.0,
+                    "Tag": 641,
+                    "ActionTag": 888860237,
+                    "Size": {
+                      "X": 32.0,
+                      "Y": 19.0
+                    },
+                    "Name": "amount",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": -2005483856,
+                "Size": {
+                  "X": 14.0,
+                  "Y": 17.0
+                },
+                "Name": "darkElixirIcon",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "res/content/guis/upgrade_building_gui/small/gold.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 5,
+                "Scale9OriginY": 5,
+                "Scale9Width": 6,
+                "Scale9Height": 6,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 48.5,
+                  "Y": 80.8
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.8
+                },
+                "PreSize": {
+                  "X": 0.1649,
+                  "Y": 0.1584
+                },
+                "LeftMargin": 40.5,
+                "RightMargin": 40.5,
+                "TopMargin": 12.2,
+                "BottomMargin": 72.8,
+                "Tag": 642,
+                "Children": [
+                  {
+                    "LabelText": "20",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "res/content/fonts/soji_12.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 8.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 2.0,
+                      "Y": 1.1875
+                    },
+                    "LeftMargin": -32.0,
+                    "RightMargin": 16.0,
+                    "TopMargin": -1.5,
+                    "BottomMargin": -1.5,
+                    "Tag": 643,
+                    "ActionTag": 372147235,
+                    "Size": {
+                      "X": 32.0,
+                      "Y": 19.0
+                    },
+                    "Name": "amount",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": 1891105392,
+                "Size": {
+                  "X": 16.0,
+                  "Y": 16.0
+                },
+                "Name": "goldIcon",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -326033059,
+            "Size": {
+              "X": 97.0,
+              "Y": 101.0
+            },
+            "Name": "upgrade",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/train_icon.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/train_icon.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/train_icon.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 67,
+            "Scale9Height": 79,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 273.0726,
+              "Y": 575.7012
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2845,
+              "Y": 0.8995
+            },
+            "PreSize": {
+              "X": 0.101,
+              "Y": 0.1578
+            },
+            "LeftMargin": 224.5726,
+            "RightMargin": 638.4274,
+            "TopMargin": 13.7988,
+            "BottomMargin": 525.2012,
+            "Tag": 64,
+            "Children": [
+              {
+                "LabelText": "TRAIN",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "res/content/fonts/soji_12.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 48.5,
+                  "Y": 15.15
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.15
+                },
+                "PreSize": {
+                  "X": 0.5258,
+                  "Y": 0.1881
+                },
+                "LeftMargin": 23.0,
+                "RightMargin": 23.0,
+                "TopMargin": 66.85,
+                "BottomMargin": 15.15,
+                "Tag": 69,
+                "ActionTag": -1885768212,
+                "Size": {
+                  "X": 51.0,
+                  "Y": 19.0
+                },
+                "Name": "description",
+                "ctype": "TextBMFontObjectData"
+              }
+            ],
+            "ActionTag": -1467014824,
+            "Size": {
+              "X": 97.0,
+              "Y": 101.0
+            },
+            "Name": "train",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/research_icon.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/research_icon.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/research_icon.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 67,
+            "Scale9Height": 79,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 378.2833,
+              "Y": 574.5188
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.394,
+              "Y": 0.8977
+            },
+            "PreSize": {
+              "X": 0.101,
+              "Y": 0.1578
+            },
+            "LeftMargin": 329.7833,
+            "RightMargin": 533.2167,
+            "TopMargin": 14.9812,
+            "BottomMargin": 524.0188,
+            "Tag": 65,
+            "Children": [
+              {
+                "LabelText": "RESEARCH",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "res/content/fonts/soji_12.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 48.5,
+                  "Y": 15.15
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.15
+                },
+                "PreSize": {
+                  "X": 0.8144,
+                  "Y": 0.1881
+                },
+                "LeftMargin": 9.0,
+                "RightMargin": 9.0,
+                "TopMargin": 66.85,
+                "BottomMargin": 15.15,
+                "Tag": 70,
+                "ActionTag": 423461325,
+                "Size": {
+                  "X": 79.0,
+                  "Y": 19.0
+                },
+                "Name": "description",
+                "ctype": "TextBMFontObjectData"
+              }
+            ],
+            "ActionTag": -1101110836,
+            "Size": {
+              "X": 97.0,
+              "Y": 101.0
+            },
+            "Name": "research",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/harvest_elixir.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/harvest_elixir.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/harvest_elixir.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 67,
+            "Scale9Height": 79,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 484.6744,
+              "Y": 575.7006
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5049,
+              "Y": 0.8995
+            },
+            "PreSize": {
+              "X": 0.101,
+              "Y": 0.1578
+            },
+            "LeftMargin": 436.1744,
+            "RightMargin": 426.8256,
+            "TopMargin": 13.7994,
+            "BottomMargin": 525.2006,
+            "Tag": 94,
+            "Children": [
+              {
+                "LabelText": "COLLECT",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "res/content/fonts/soji_12.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 48.5,
+                  "Y": 15.15
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.15
+                },
+                "PreSize": {
+                  "X": 0.7216,
+                  "Y": 0.1881
+                },
+                "LeftMargin": 13.5,
+                "RightMargin": 13.5,
+                "TopMargin": 66.85,
+                "BottomMargin": 15.15,
+                "Tag": 97,
+                "ActionTag": 75936683,
+                "Size": {
+                  "X": 70.0,
+                  "Y": 19.0
+                },
+                "Name": "description",
+                "ctype": "TextBMFontObjectData"
+              }
+            ],
+            "ActionTag": 1859936432,
+            "Size": {
+              "X": 97.0,
+              "Y": 101.0
+            },
+            "Name": "harvestElixir",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/harvest_gold.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/harvest_gold.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/harvest_gold.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 67,
+            "Scale9Height": 79,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 587.5192,
+              "Y": 576.8823
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.612,
+              "Y": 0.9014
+            },
+            "PreSize": {
+              "X": 0.101,
+              "Y": 0.1578
+            },
+            "LeftMargin": 539.0192,
+            "RightMargin": 323.9808,
+            "TopMargin": 12.6177,
+            "BottomMargin": 526.3823,
+            "Tag": 95,
+            "Children": [
+              {
+                "LabelText": "COLLECT",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "res/content/fonts/soji_12.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 48.5,
+                  "Y": 15.15
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.15
+                },
+                "PreSize": {
+                  "X": 0.7216,
+                  "Y": 0.1881
+                },
+                "LeftMargin": 13.5,
+                "RightMargin": 13.5,
+                "TopMargin": 66.85,
+                "BottomMargin": 15.15,
+                "Tag": 98,
+                "ActionTag": -878662569,
+                "Size": {
+                  "X": 70.0,
+                  "Y": 19.0
+                },
+                "Name": "description",
+                "ctype": "TextBMFontObjectData"
+              }
+            ],
+            "ActionTag": 76659795,
+            "Size": {
+              "X": 97.0,
+              "Y": 101.0
+            },
+            "Name": "harvestGold",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/harvest_dark_elixir.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/harvest_dark_elixir.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/harvest_dark_elixir.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 67,
+            "Scale9Height": 79,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 691.548,
+              "Y": 579.2465
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7204,
+              "Y": 0.9051
+            },
+            "PreSize": {
+              "X": 0.101,
+              "Y": 0.1578
+            },
+            "LeftMargin": 643.048,
+            "RightMargin": 219.952,
+            "TopMargin": 10.2535,
+            "BottomMargin": 528.7465,
+            "Tag": 96,
+            "Children": [
+              {
+                "LabelText": "COLLECT",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "res/content/fonts/soji_12.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 48.5,
+                  "Y": 15.15
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.15
+                },
+                "PreSize": {
+                  "X": 0.7216,
+                  "Y": 0.1881
+                },
+                "LeftMargin": 13.5,
+                "RightMargin": 13.5,
+                "TopMargin": 66.85,
+                "BottomMargin": 15.15,
+                "Tag": 99,
+                "ActionTag": 339776335,
+                "Size": {
+                  "X": 70.0,
+                  "Y": 19.0
+                },
+                "Name": "description",
+                "ctype": "TextBMFontObjectData"
+              }
+            ],
+            "ActionTag": 373595149,
+            "Size": {
+              "X": 97.0,
+              "Y": 101.0
+            },
+            "Name": "harvestDarkElixir",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/remove_icon.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/remove_icon.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/remove_icon.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 67,
+            "Scale9Height": 79,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 792.0298,
+              "Y": 580.429
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.825,
+              "Y": 0.9069
+            },
+            "PreSize": {
+              "X": 0.101,
+              "Y": 0.1578
+            },
+            "LeftMargin": 743.5298,
+            "RightMargin": 119.4702,
+            "TopMargin": 9.071,
+            "BottomMargin": 529.929,
+            "Tag": 101,
+            "Children": [
+              {
+                "LabelText": "REMOVE",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "res/content/fonts/soji_12.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 48.5,
+                  "Y": 15.15
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.15
+                },
+                "PreSize": {
+                  "X": 0.6804,
+                  "Y": 0.1881
+                },
+                "LeftMargin": 15.5,
+                "RightMargin": 15.5,
+                "TopMargin": 66.85,
+                "BottomMargin": 15.15,
+                "Tag": 102,
+                "ActionTag": -6673894,
+                "Size": {
+                  "X": 66.0,
+                  "Y": 19.0
+                },
+                "Name": "description",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "res/content/guis/upgrade_building_gui/small/elixir.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 4,
+                "Scale9OriginY": 5,
+                "Scale9Width": 6,
+                "Scale9Height": 7,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 48.5,
+                  "Y": 80.8
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.8
+                },
+                "PreSize": {
+                  "X": 0.1443,
+                  "Y": 0.1683
+                },
+                "LeftMargin": 41.5,
+                "RightMargin": 41.5,
+                "TopMargin": 11.7,
+                "BottomMargin": 72.3,
+                "Tag": 644,
+                "Children": [
+                  {
+                    "LabelText": "20",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "res/content/fonts/soji_12.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 8.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 2.2857,
+                      "Y": 1.1176
+                    },
+                    "LeftMargin": -32.0,
+                    "RightMargin": 14.0,
+                    "TopMargin": -1.0,
+                    "BottomMargin": -1.0,
+                    "Tag": 645,
+                    "ActionTag": -1305636785,
+                    "Size": {
+                      "X": 32.0,
+                      "Y": 19.0
+                    },
+                    "Name": "amount",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": -1542269168,
+                "Size": {
+                  "X": 14.0,
+                  "Y": 17.0
+                },
+                "Name": "elixirIcon",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "res/content/guis/upgrade_building_gui/small/gold.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 5,
+                "Scale9OriginY": 5,
+                "Scale9Width": 6,
+                "Scale9Height": 6,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 48.5,
+                  "Y": 80.8
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.8
+                },
+                "PreSize": {
+                  "X": 0.1649,
+                  "Y": 0.1584
+                },
+                "LeftMargin": 40.5,
+                "RightMargin": 40.5,
+                "TopMargin": 12.2,
+                "BottomMargin": 72.8,
+                "Tag": 651,
+                "Children": [
+                  {
+                    "LabelText": "20",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "res/content/fonts/soji_12.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 8.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 2.0,
+                      "Y": 1.1875
+                    },
+                    "LeftMargin": -32.0,
+                    "RightMargin": 16.0,
+                    "TopMargin": -1.5,
+                    "BottomMargin": -1.5,
+                    "Tag": 652,
+                    "ActionTag": -1370260025,
+                    "Size": {
+                      "X": 32.0,
+                      "Y": 19.0
+                    },
+                    "Name": "amount",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": -1824130781,
+                "Size": {
+                  "X": 16.0,
+                  "Y": 16.0
+                },
+                "Name": "goldIcon",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 983455378,
+            "Size": {
+              "X": 97.0,
+              "Y": 101.0
+            },
+            "Name": "remove",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/cancel_icon.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/cancel_icon.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/cancel_icon.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 67,
+            "Scale9Height": 79,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 894.8755,
+              "Y": 579.2457
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9322,
+              "Y": 0.9051
+            },
+            "PreSize": {
+              "X": 0.101,
+              "Y": 0.1578
+            },
+            "LeftMargin": 846.3755,
+            "RightMargin": 16.6245,
+            "TopMargin": 10.2543,
+            "BottomMargin": 528.7457,
+            "Tag": 63,
+            "Children": [
+              {
+                "LabelText": "CANCEL",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "res/content/fonts/soji_12.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 48.5,
+                  "Y": 15.15
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.15
+                },
+                "PreSize": {
+                  "X": 0.6495,
+                  "Y": 0.1881
+                },
+                "LeftMargin": 17.0,
+                "RightMargin": 17.0,
+                "TopMargin": 66.85,
+                "BottomMargin": 15.15,
+                "Tag": 64,
+                "ActionTag": -916556420,
+                "Size": {
+                  "X": 63.0,
+                  "Y": 19.0
+                },
+                "Name": "description",
+                "ctype": "TextBMFontObjectData"
+              }
+            ],
+            "ActionTag": 1772342023,
+            "Size": {
+              "X": 97.0,
+              "Y": 101.0
+            },
+            "Name": "cancelBuild",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/quick_finish.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/quick_finish.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/quick_finish.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 67,
+            "Scale9Height": 79,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 60.0,
+              "Y": 469.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0625,
+              "Y": 0.7328
+            },
+            "PreSize": {
+              "X": 0.101,
+              "Y": 0.1578
+            },
+            "LeftMargin": 11.5,
+            "RightMargin": 851.5,
+            "TopMargin": 120.5,
+            "BottomMargin": 418.5,
+            "Tag": 24,
+            "Children": [
+              {
+                "LabelText": "QUICK",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "res/content/fonts/soji_12.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 48.5,
+                  "Y": 24.24
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.24
+                },
+                "PreSize": {
+                  "X": 0.5567,
+                  "Y": 0.1881
+                },
+                "LeftMargin": 21.5,
+                "RightMargin": 21.5,
+                "TopMargin": 57.76,
+                "BottomMargin": 24.24,
+                "Tag": 25,
+                "ActionTag": -492050886,
+                "Size": {
+                  "X": 54.0,
+                  "Y": 19.0
+                },
+                "Name": "description",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "LabelText": "FINISH",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "res/content/fonts/soji_12.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 48.5,
+                  "Y": 8.08
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.08
+                },
+                "PreSize": {
+                  "X": 0.5876,
+                  "Y": 0.1881
+                },
+                "LeftMargin": 20.0,
+                "RightMargin": 20.0,
+                "TopMargin": 73.92,
+                "BottomMargin": 8.08,
+                "Tag": 26,
+                "ActionTag": -276548673,
+                "Size": {
+                  "X": 57.0,
+                  "Y": 19.0
+                },
+                "Name": "description_0",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Default",
+                  "Path": "Default/ImageFile.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 46,
+                "Scale9Height": 46,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 48.5,
+                  "Y": 80.8
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.8
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 48.5,
+                "RightMargin": 48.5,
+                "TopMargin": 20.2,
+                "BottomMargin": 80.8,
+                "Tag": 37,
+                "Children": [
+                  {
+                    "LabelText": "20",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "res/content/fonts/soji_12.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -32.0,
+                    "TopMargin": -9.5,
+                    "BottomMargin": -9.5,
+                    "Tag": 38,
+                    "ActionTag": -24057279,
+                    "Size": {
+                      "X": 32.0,
+                      "Y": 19.0
+                    },
+                    "Name": "amount",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": 1990873210,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "gIcon",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 1591972829,
+            "Size": {
+              "X": 97.0,
+              "Y": 101.0
+            },
+            "Name": "quickFinish",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/select_line.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/select_line.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/select_line.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 67,
+            "Scale9Height": 79,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 165.4933,
+              "Y": 470.6074
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1724,
+              "Y": 0.7353
+            },
+            "PreSize": {
+              "X": 0.101,
+              "Y": 0.1578
+            },
+            "LeftMargin": 116.9933,
+            "RightMargin": 746.0067,
+            "TopMargin": 118.8926,
+            "BottomMargin": 420.1074,
+            "Tag": 78,
+            "Children": [
+              {
+                "LabelText": "SELECT LINE",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "res/content/fonts/soji_12.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 48.5,
+                  "Y": 15.15
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.15
+                },
+                "PreSize": {
+                  "X": 0.9485,
+                  "Y": 0.1881
+                },
+                "LeftMargin": 2.5,
+                "RightMargin": 2.5,
+                "TopMargin": 66.85,
+                "BottomMargin": 15.15,
+                "Tag": 79,
+                "ActionTag": -1164668293,
+                "Size": {
+                  "X": 92.0,
+                  "Y": 19.0
+                },
+                "Name": "description",
+                "ctype": "TextBMFontObjectData"
+              }
+            ],
+            "ActionTag": -901643828,
+            "Size": {
+              "X": 97.0,
+              "Y": 101.0
+            },
+            "Name": "select_line",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 960.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Default/ImageFile.png",
+        "res/content/fonts/soji_12.fnt",
+        "res/content/fonts/soji_12.png",
+        "res/content/guis/action_building_icon/cancel_icon.png",
+        "res/content/guis/action_building_icon/harvest_dark_elixir.png",
+        "res/content/guis/action_building_icon/harvest_elixir.png",
+        "res/content/guis/action_building_icon/harvest_gold.png",
+        "res/content/guis/action_building_icon/info_icon.png",
+        "res/content/guis/action_building_icon/quick_finish.png",
+        "res/content/guis/action_building_icon/remove_icon.png",
+        "res/content/guis/action_building_icon/research_icon.png",
+        "res/content/guis/action_building_icon/select_line.png",
+        "res/content/guis/action_building_icon/train_icon.png",
+        "res/content/guis/action_building_icon/upgrade_icon.png",
+        "res/content/guis/upgrade_building_gui/small/dElixir.png",
+        "res/content/guis/upgrade_building_gui/small/elixir.png",
+        "res/content/guis/upgrade_building_gui/small/gold.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,218 @@
+{
+  "ID": "90814bea-3737-470c-b8c5-5d0e21cdd050",
+  "Version": "3.10.0.0",
+  "Name": "MapLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 3,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "res/content/map/background_1.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 480.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.099,
+              "Y": 1.3094
+            },
+            "LeftMargin": -575.0,
+            "RightMargin": 480.0,
+            "TopMargin": 320.0,
+            "BottomMargin": -518.0,
+            "Tag": 14,
+            "ActionTag": 1155938923,
+            "Size": {
+              "X": 1055.0,
+              "Y": 838.0
+            },
+            "Name": "Sprite_9",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "res/content/map/background_2.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 480.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0885,
+              "Y": 1.3062
+            },
+            "LeftMargin": 480.0,
+            "RightMargin": -565.0,
+            "TopMargin": 320.0,
+            "BottomMargin": -516.0,
+            "Tag": 15,
+            "ActionTag": -1021702841,
+            "Size": {
+              "X": 1045.0,
+              "Y": 836.0
+            },
+            "Name": "Sprite_10",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "res/content/map/background_3.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 1.0
+            },
+            "Position": {
+              "X": 480.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.099,
+              "Y": 1.1922
+            },
+            "LeftMargin": -575.0,
+            "RightMargin": 480.0,
+            "TopMargin": -443.0,
+            "BottomMargin": 320.0,
+            "Tag": 16,
+            "ActionTag": 1664379261,
+            "Size": {
+              "X": 1055.0,
+              "Y": 763.0
+            },
+            "Name": "Sprite_11",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "res/content/map/background_4.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 480.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0885,
+              "Y": 1.1938
+            },
+            "LeftMargin": 480.0,
+            "RightMargin": -565.0,
+            "TopMargin": -444.0,
+            "BottomMargin": 320.0,
+            "Tag": 17,
+            "ActionTag": -1107549838,
+            "Size": {
+              "X": 1045.0,
+              "Y": 764.0
+            },
+            "Name": "Sprite_12",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 960.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "res/content/map/background_1.png",
+        "res/content/map/background_2.png",
+        "res/content/map/background_3.png",
+        "res/content/map/background_4.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,509 @@
+{
+  "ID": "337cf0c8-3d60-46ce-910d-6d7d21b06fd2",
+  "Version": "3.10.0.0",
+  "Name": "UserLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 83,
+        "Children": [
+          {
+            "LabelText": "thangftn",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "fonts/soji_12.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 115.9489,
+              "Y": 128.4881
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4638,
+              "Y": 0.8566
+            },
+            "PreSize": {
+              "X": 0.308,
+              "Y": 0.1267
+            },
+            "LeftMargin": 77.4489,
+            "RightMargin": 95.5511,
+            "TopMargin": 12.0119,
+            "BottomMargin": 118.9881,
+            "Tag": 85,
+            "ActionTag": 292984547,
+            "Size": {
+              "X": 77.0,
+              "Y": 19.0
+            },
+            "Name": "lb_username",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "guis/main_gui/exp_bg_bar.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 34,
+            "Scale9OriginY": 7,
+            "Scale9Width": 37,
+            "Scale9Height": 9,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 121.1368,
+              "Y": 98.8977
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4845,
+              "Y": 0.6593
+            },
+            "PreSize": {
+              "X": 0.42,
+              "Y": 0.1533
+            },
+            "LeftMargin": 68.6368,
+            "RightMargin": 76.3632,
+            "TopMargin": 39.6023,
+            "BottomMargin": 87.3977,
+            "Tag": 86,
+            "ActionTag": 797706808,
+            "Size": {
+              "X": 105.0,
+              "Y": 23.0
+            },
+            "Name": "imv_max_exp",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "guis/main_gui/exp_bar.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 5,
+            "Scale9OriginY": 5,
+            "Scale9Width": 95,
+            "Scale9Height": 13,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 121.1368,
+              "Y": 98.8977
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4845,
+              "Y": 0.6593
+            },
+            "PreSize": {
+              "X": 0.42,
+              "Y": 0.1533
+            },
+            "LeftMargin": 68.6368,
+            "RightMargin": 76.3632,
+            "TopMargin": 39.6023,
+            "BottomMargin": 87.3977,
+            "Tag": 92,
+            "ActionTag": -987907821,
+            "Size": {
+              "X": 105.0,
+              "Y": 23.0
+            },
+            "Name": "imv_exp",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "guis/main_gui/trophy_bg_bar.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 37,
+            "Scale9OriginY": 8,
+            "Scale9Width": 41,
+            "Scale9Height": 9,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 120.64,
+              "Y": 64.9094
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4826,
+              "Y": 0.4327
+            },
+            "PreSize": {
+              "X": 0.46,
+              "Y": 0.1667
+            },
+            "LeftMargin": 63.14,
+            "RightMargin": 71.86,
+            "TopMargin": 72.5906,
+            "BottomMargin": 52.4094,
+            "Tag": 87,
+            "ActionTag": 1078923243,
+            "Size": {
+              "X": 115.0,
+              "Y": 25.0
+            },
+            "Name": "imv_dv",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "LabelText": "123",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "fonts/soji_12.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 124.0109,
+              "Y": 99.317
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.496,
+              "Y": 0.6621
+            },
+            "PreSize": {
+              "X": 0.144,
+              "Y": 0.1267
+            },
+            "LeftMargin": 106.0109,
+            "RightMargin": 107.9891,
+            "TopMargin": 41.183,
+            "BottomMargin": 89.817,
+            "Tag": 88,
+            "ActionTag": 1872165645,
+            "Size": {
+              "X": 36.0,
+              "Y": 19.0
+            },
+            "Name": "lb_exp",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "LabelText": "100",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "fonts/soji_12.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 123.7088,
+              "Y": 65.716
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4948,
+              "Y": 0.4381
+            },
+            "PreSize": {
+              "X": 0.168,
+              "Y": 0.1267
+            },
+            "LeftMargin": 102.7088,
+            "RightMargin": 105.2912,
+            "TopMargin": 74.784,
+            "BottomMargin": 56.216,
+            "Tag": 91,
+            "ActionTag": 1087782079,
+            "Size": {
+              "X": 42.0,
+              "Y": 19.0
+            },
+            "Name": "lb_trophy",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "guis/main_gui/ranking.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 9,
+            "Scale9OriginY": 11,
+            "Scale9Width": 16,
+            "Scale9Height": 14,
+            "AnchorPoint": {
+              "ScaleX": 0.5761,
+              "ScaleY": 0.2314
+            },
+            "Position": {
+              "X": 180.5073,
+              "Y": 54.8932
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.722,
+              "Y": 0.366
+            },
+            "PreSize": {
+              "X": 0.136,
+              "Y": 0.24
+            },
+            "LeftMargin": 160.9199,
+            "RightMargin": 55.0801,
+            "TopMargin": 67.4372,
+            "BottomMargin": 46.5628,
+            "Tag": 90,
+            "ActionTag": -1788794952,
+            "Size": {
+              "X": 34.0,
+              "Y": 36.0
+            },
+            "Name": "Image_4",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "guis/main_gui/ic_exp.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 13,
+            "Scale9OriginY": 13,
+            "Scale9Width": 16,
+            "Scale9Height": 16,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 179.2706,
+              "Y": 105.1304
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7171,
+              "Y": 0.7009
+            },
+            "PreSize": {
+              "X": 0.168,
+              "Y": 0.28
+            },
+            "LeftMargin": 158.2706,
+            "RightMargin": 49.7294,
+            "TopMargin": 23.8696,
+            "BottomMargin": 84.1304,
+            "Tag": 89,
+            "ActionTag": 625291841,
+            "Size": {
+              "X": 42.0,
+              "Y": 42.0
+            },
+            "Name": "Image_3",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "guis/main_gui/bg_exp.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "guis/main_gui/bg_exp.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 44,
+            "Scale9Height": 54,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 49.3128,
+              "Y": 83.5958
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1973,
+              "Y": 0.5573
+            },
+            "PreSize": {
+              "X": 0.296,
+              "Y": 0.5067
+            },
+            "LeftMargin": 12.3128,
+            "RightMargin": 163.6872,
+            "TopMargin": 28.4042,
+            "BottomMargin": 45.5958,
+            "Tag": 84,
+            "ActionTag": -454775865,
+            "Size": {
+              "X": 74.0,
+              "Y": 76.0
+            },
+            "Name": "btn_user_info",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "LabelText": "22",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "fonts/soji_12.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 180.4617,
+              "Y": 100.8043
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7218,
+              "Y": 0.672
+            },
+            "PreSize": {
+              "X": 0.12,
+              "Y": 0.1267
+            },
+            "LeftMargin": 165.4617,
+            "RightMargin": 54.5383,
+            "TopMargin": 39.6957,
+            "BottomMargin": 91.3043,
+            "Tag": 95,
+            "ActionTag": 284389978,
+            "Size": {
+              "X": 30.0,
+              "Y": 19.0
+            },
+            "Name": "lb_level",
+            "ctype": "TextBMFontObjectData"
+          }
+        ],
+        "Size": {
+          "X": 250.0,
+          "Y": 150.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../Default/Button_Disable.png",
+        "../fonts/soji_12.fnt",
+        "../fonts/soji_12.png",
+        "../guis/main_gui/bg_exp.png",
+        "../guis/main_gui/exp_bar.png",
+        "../guis/main_gui/exp_bg_bar.png",
+        "../guis/main_gui/ic_exp.png",
+        "../guis/main_gui/ranking.png",
+        "../guis/main_gui/trophy_bg_bar.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

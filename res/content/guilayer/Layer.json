@@ -1,0 +1,516 @@
+{
+  "ID": "5c974b54-210e-4703-903f-392185f86384",
+  "Version": "3.10.0.0",
+  "Name": "Layer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 34,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "new/battle_gui/nen_find_match.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.3802,
+              "Y": 1.0
+            },
+            "RightMargin": 595.0,
+            "Tag": 35,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "new/battle_gui/button_find_match.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "new/battle_gui/button_find_match.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "new/battle_gui/button_find_match.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 152,
+                "Scale9Height": 53,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 182.5,
+                  "Y": 86.7478
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1807
+                },
+                "PreSize": {
+                  "X": 0.4986,
+                  "Y": 0.1563
+                },
+                "HorizontalEdge": "LeftEdge",
+                "LeftMargin": 91.5,
+                "RightMargin": 91.5,
+                "TopMargin": 355.7522,
+                "BottomMargin": 49.2478,
+                "Tag": 45,
+                "Children": [
+                  {
+                    "LabelText": "CHINH PHẠT",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "fonts/soji_24.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 90.5213,
+                      "Y": 49.2679
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4974,
+                      "Y": 0.6569
+                    },
+                    "PreSize": {
+                      "X": 0.9121,
+                      "Y": 0.5067
+                    },
+                    "HorizontalEdge": "LeftEdge",
+                    "VerticalEdge": "BottomEdge",
+                    "LeftMargin": 7.5213,
+                    "RightMargin": 8.4787,
+                    "TopMargin": 6.7321,
+                    "BottomMargin": 30.2679,
+                    "Tag": 37,
+                    "ActionTag": 1082615355,
+                    "Size": {
+                      "X": 166.0,
+                      "Y": 38.0
+                    },
+                    "Name": "BitmapFontLabel_1",
+                    "ctype": "TextBMFontObjectData"
+                  },
+                  {
+                    "LabelText": "580",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "fonts/soji_16.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 74.7863,
+                      "Y": 23.2367
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4109,
+                      "Y": 0.3098
+                    },
+                    "PreSize": {
+                      "X": 0.2637,
+                      "Y": 0.3333
+                    },
+                    "LeftMargin": 50.7863,
+                    "RightMargin": 83.2137,
+                    "TopMargin": 39.2633,
+                    "BottomMargin": 10.7367,
+                    "Tag": 38,
+                    "ActionTag": -1773817924,
+                    "Size": {
+                      "X": 48.0,
+                      "Y": 25.0
+                    },
+                    "Name": "goldfindmatch",
+                    "ctype": "TextBMFontObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "new/battle_gui/gold_find_match.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 110.3915,
+                      "Y": 24.1984
+                    },
+                    "Scale": {
+                      "ScaleX": 0.8,
+                      "ScaleY": 0.8
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6065,
+                      "Y": 0.3226
+                    },
+                    "PreSize": {
+                      "X": 0.1978,
+                      "Y": 0.5067
+                    },
+                    "LeftMargin": 92.3915,
+                    "RightMargin": 53.6086,
+                    "TopMargin": 31.8016,
+                    "BottomMargin": 5.1984,
+                    "Tag": 39,
+                    "ActionTag": -1387235899,
+                    "Size": {
+                      "X": 36.0,
+                      "Y": 38.0
+                    },
+                    "Name": "gold_find_match_3",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1122289775,
+                "Size": {
+                  "X": 182.0,
+                  "Y": 75.0
+                },
+                "Name": "Button_1",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 1943082800,
+            "Size": {
+              "X": 365.0,
+              "Y": 480.0
+            },
+            "Name": "nen_find_match_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "new/battle_gui/trophy_find_match.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 184.0542,
+              "Y": 407.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1917,
+              "Y": 0.849
+            },
+            "PreSize": {
+              "X": 0.1521,
+              "Y": 0.0917
+            },
+            "LeftMargin": 111.0542,
+            "RightMargin": 702.9458,
+            "TopMargin": 50.5,
+            "BottomMargin": 385.5,
+            "Tag": 40,
+            "ActionTag": 406027515,
+            "Size": {
+              "X": 146.0,
+              "Y": 44.0
+            },
+            "Name": "trophy_find_match_4",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "LabelText": "Điểm danh vọng",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "fonts/soji_12.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 179.4652,
+              "Y": 432.4161
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1869,
+              "Y": 0.9009
+            },
+            "PreSize": {
+              "X": 0.1302,
+              "Y": 0.0396
+            },
+            "LeftMargin": 116.9652,
+            "RightMargin": 718.0348,
+            "TopMargin": 38.0839,
+            "BottomMargin": 422.9161,
+            "Tag": 41,
+            "ActionTag": 1224541136,
+            "Size": {
+              "X": 125.0,
+              "Y": 19.0
+            },
+            "Name": "BitmapFontLabel_3",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "LabelText": "100",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "fonts/soji_16.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 176.3603,
+              "Y": 407.5772
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1837,
+              "Y": 0.8491
+            },
+            "PreSize": {
+              "X": 0.0521,
+              "Y": 0.0521
+            },
+            "LeftMargin": 151.3603,
+            "RightMargin": 758.6396,
+            "TopMargin": 59.9228,
+            "BottomMargin": 395.0772,
+            "Tag": 42,
+            "ActionTag": -1242939126,
+            "Size": {
+              "X": 50.0,
+              "Y": 25.0
+            },
+            "Name": "BitmapFontLabel_4",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "new/battle_gui/nen_nut_dong.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 914.2672,
+              "Y": 445.8701
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9524,
+              "Y": 0.9289
+            },
+            "PreSize": {
+              "X": 0.0823,
+              "Y": 0.1292
+            },
+            "LeftMargin": 874.7672,
+            "RightMargin": 6.2328,
+            "TopMargin": 3.1299,
+            "BottomMargin": 414.8701,
+            "Tag": 43,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "new/battle_gui/butto_close_fm.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 39.5,
+                  "Y": 31.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.6709,
+                  "Y": 0.8548
+                },
+                "HorizontalEdge": "LeftEdge",
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 13.0,
+                "RightMargin": 13.0,
+                "TopMargin": 4.5,
+                "BottomMargin": 4.5,
+                "Tag": 44,
+                "ActionTag": -1103572682,
+                "Size": {
+                  "X": 53.0,
+                  "Y": 53.0
+                },
+                "Name": "butto_close_fm_6",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1187332302,
+            "Size": {
+              "X": 79.0,
+              "Y": 62.0
+            },
+            "Name": "nen_nut_dong_5",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 960.0,
+          "Y": 480.0
+        },
+        "Name": "BattleLayer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../fonts/soji_12.fnt",
+        "../fonts/soji_12.png",
+        "../fonts/soji_16.fnt",
+        "../fonts/soji_16.png",
+        "../fonts/soji_24.fnt",
+        "../fonts/soji_24.png",
+        "../new/battle_gui/butto_close_fm.png",
+        "../new/battle_gui/button_find_match.png",
+        "../new/battle_gui/gold_find_match.png",
+        "../new/battle_gui/nen_find_match.png",
+        "../new/battle_gui/nen_nut_dong.png",
+        "../new/battle_gui/trophy_find_match.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

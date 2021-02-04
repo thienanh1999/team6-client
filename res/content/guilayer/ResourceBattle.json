@@ -1,0 +1,461 @@
+{
+  "ID": "731a261e-e5cb-4705-a141-a98812c2a93a",
+  "Version": "3.10.0.0",
+  "Name": "ResourceBattle",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 64,
+        "Children": [
+          {
+            "LabelText": "0",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "fonts/soji_16.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 64.3891,
+              "Y": 112.5213
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3219,
+              "Y": 0.2813
+            },
+            "PreSize": {
+              "X": 0.125,
+              "Y": 0.0625
+            },
+            "LeftMargin": 64.3891,
+            "RightMargin": 110.6109,
+            "TopMargin": 262.4787,
+            "BottomMargin": 112.5213,
+            "Tag": 65,
+            "ActionTag": 769744417,
+            "Size": {
+              "X": 25.0,
+              "Y": 25.0
+            },
+            "Name": "cup",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "LabelText": "0",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "fonts/soji_16.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 64.3891,
+              "Y": 159.4422
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3219,
+              "Y": 0.3986
+            },
+            "PreSize": {
+              "X": 0.125,
+              "Y": 0.0625
+            },
+            "LeftMargin": 64.3891,
+            "RightMargin": 110.6109,
+            "TopMargin": 215.5578,
+            "BottomMargin": 159.4422,
+            "Tag": 66,
+            "ActionTag": -612136929,
+            "Size": {
+              "X": 25.0,
+              "Y": 25.0
+            },
+            "Name": "darkElixir",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "LabelText": "0",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "fonts/soji_16.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 64.3891,
+              "Y": 213.773
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3219,
+              "Y": 0.5344
+            },
+            "PreSize": {
+              "X": 0.125,
+              "Y": 0.0625
+            },
+            "LeftMargin": 64.3891,
+            "RightMargin": 110.6109,
+            "TopMargin": 161.227,
+            "BottomMargin": 213.773,
+            "Tag": 67,
+            "ActionTag": -1139576714,
+            "Size": {
+              "X": 25.0,
+              "Y": 25.0
+            },
+            "Name": "elixir",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "LabelText": "0",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "fonts/soji_16.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 64.3891,
+              "Y": 263.6626
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3219,
+              "Y": 0.6592
+            },
+            "PreSize": {
+              "X": 0.125,
+              "Y": 0.0625
+            },
+            "LeftMargin": 64.3891,
+            "RightMargin": 110.6109,
+            "TopMargin": 111.3374,
+            "BottomMargin": 263.6626,
+            "Tag": 68,
+            "ActionTag": 1729982141,
+            "Size": {
+              "X": 25.0,
+              "Y": 25.0
+            },
+            "Name": "gold",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "ket thuc tran/cup.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 36.8901,
+              "Y": 122.1275
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1845,
+              "Y": 0.3053
+            },
+            "PreSize": {
+              "X": 0.16,
+              "Y": 0.085
+            },
+            "LeftMargin": 20.8901,
+            "RightMargin": 147.1099,
+            "TopMargin": 260.8725,
+            "BottomMargin": 105.1275,
+            "Tag": 69,
+            "ActionTag": -1433696170,
+            "Size": {
+              "X": 32.0,
+              "Y": 34.0
+            },
+            "Name": "cup_4",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "ket thuc tran/tien.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 36.8897,
+              "Y": 272.6628
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1844,
+              "Y": 0.6817
+            },
+            "PreSize": {
+              "X": 0.14,
+              "Y": 0.075
+            },
+            "LeftMargin": 22.8897,
+            "RightMargin": 149.1103,
+            "TopMargin": 112.3372,
+            "BottomMargin": 257.6628,
+            "Tag": 70,
+            "ActionTag": -802783609,
+            "Size": {
+              "X": 28.0,
+              "Y": 30.0
+            },
+            "Name": "tien_3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "ket thuc tran/dau tim.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 36.8901,
+              "Y": 225.3731
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1845,
+              "Y": 0.5634
+            },
+            "PreSize": {
+              "X": 0.12,
+              "Y": 0.08
+            },
+            "LeftMargin": 24.8901,
+            "RightMargin": 151.1099,
+            "TopMargin": 158.6269,
+            "BottomMargin": 209.3731,
+            "Tag": 71,
+            "ActionTag": -575524596,
+            "Size": {
+              "X": 24.0,
+              "Y": 32.0
+            },
+            "Name": "Sprite_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "ket thuc tran/dau den.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 36.8896,
+              "Y": 170.7934
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1844,
+              "Y": 0.427
+            },
+            "PreSize": {
+              "X": 0.125,
+              "Y": 0.085
+            },
+            "LeftMargin": 24.3896,
+            "RightMargin": 150.6104,
+            "TopMargin": 212.2066,
+            "BottomMargin": 153.7934,
+            "Tag": 72,
+            "ActionTag": -1501985371,
+            "Size": {
+              "X": 25.0,
+              "Y": 34.0
+            },
+            "Name": "Sprite_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "LabelText": "Available resources",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "fonts/soji_12.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 82.168,
+              "Y": 344.982
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4108,
+              "Y": 0.8625
+            },
+            "PreSize": {
+              "X": 0.775,
+              "Y": 0.0475
+            },
+            "LeftMargin": 4.668,
+            "RightMargin": 40.332,
+            "TopMargin": 45.518,
+            "BottomMargin": 335.482,
+            "Tag": 73,
+            "ActionTag": -1662918795,
+            "Size": {
+              "X": 155.0,
+              "Y": 19.0
+            },
+            "Name": "BitmapFontLabel_4",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "LabelText": "112",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "fonts/soji_24.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 105.3952,
+              "Y": 378.6689
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.527,
+              "Y": 0.9467
+            },
+            "PreSize": {
+              "X": 0.295,
+              "Y": 0.095
+            },
+            "LeftMargin": 75.8952,
+            "RightMargin": 65.1048,
+            "TopMargin": 2.3311,
+            "BottomMargin": 359.6689,
+            "Tag": 74,
+            "ActionTag": 1395596088,
+            "Size": {
+              "X": 59.0,
+              "Y": 38.0
+            },
+            "Name": "id",
+            "ctype": "TextBMFontObjectData"
+          }
+        ],
+        "Size": {
+          "X": 200.0,
+          "Y": 400.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../fonts/soji_12.fnt",
+        "../fonts/soji_12.png",
+        "../fonts/soji_16.fnt",
+        "../fonts/soji_16.png",
+        "../fonts/soji_24.fnt",
+        "../fonts/soji_24.png",
+        "../ket thuc tran/cup.png",
+        "../ket thuc tran/dau den.png",
+        "../ket thuc tran/dau tim.png",
+        "../ket thuc tran/tien.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

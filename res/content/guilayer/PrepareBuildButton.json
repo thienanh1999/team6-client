@@ -1,0 +1,183 @@
+{
+  "ID": "d5f9700e-fe38-4dd4-a761-55840824a818",
+  "Version": "3.10.0.0",
+  "Name": "PrepareBuildButton",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 7,
+        "Children": [
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/accept.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/accept.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/accept.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 59,
+            "Scale9Height": 68,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 62.2059,
+              "Y": 577.932
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0648,
+              "Y": 0.903
+            },
+            "PreSize": {
+              "X": 0.0927,
+              "Y": 0.1406
+            },
+            "LeftMargin": 17.7059,
+            "RightMargin": 853.2941,
+            "TopMargin": 17.068,
+            "BottomMargin": 532.932,
+            "Tag": 10,
+            "ActionTag": 794730857,
+            "Size": {
+              "X": 89.0,
+              "Y": 90.0
+            },
+            "Name": "accept",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/cancel.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/cancel.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "res/content/guis/action_building_icon/cancel.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 59,
+            "Scale9Height": 68,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 166.4037,
+              "Y": 579.9322
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1733,
+              "Y": 0.9061
+            },
+            "PreSize": {
+              "X": 0.0927,
+              "Y": 0.1406
+            },
+            "LeftMargin": 121.9037,
+            "RightMargin": 749.0963,
+            "TopMargin": 15.0678,
+            "BottomMargin": 534.9322,
+            "Tag": 11,
+            "ActionTag": -1703530562,
+            "Size": {
+              "X": 89.0,
+              "Y": 90.0
+            },
+            "Name": "cancel",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 960.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "res/content/guis/action_building_icon/accept.png",
+        "res/content/guis/action_building_icon/cancel.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}
