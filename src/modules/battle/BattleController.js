@@ -187,6 +187,7 @@ var _BattleController = cc.Class.extend({
         this.listTroopCanUse = [
             {type: TROOP.WARRIOR, quantity: 200},
             {type: TROOP.ARCHER, quantity: 200},
+            {type: TROOP.GOBLIN, quantity: 200},
             {type: TROOP.GIANT, quantity: 200},
             {type: TROOP.FLYING_BOOM, quantity: 200},
         ]
