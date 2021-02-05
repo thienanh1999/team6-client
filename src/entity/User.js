@@ -21,6 +21,7 @@ var _User = cc.Class.extend({
         this._troops = new Map();
         this._troops.set(TROOP.WARRIOR, 1);
         this._troops.set(TROOP.ARCHER, 1);
+        this._troops.set(TROOP.GOBLIN,1);
         this._troops.set(TROOP.GIANT, 1);
         this._troops.set(TROOP.FLYING_BOOM, 1);
     },

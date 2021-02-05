@@ -152,6 +152,7 @@ var TROOP = {
     WARRIOR: "ARM_1",
     ARCHER: "ARM_2",
     GIANT: "ARM_4",
+    GOBLIN: "ARM_3",
     FLYING_BOOM: "ARM_6",
     BUILDER: "builder",
 };
@@ -160,7 +161,8 @@ DELAY_ATTACK_TIME = new Map([
     [TROOP.WARRIOR, 0.8],
     [TROOP.ARCHER, 0.6],
     [TROOP.GIANT, 0.8],
-    [TROOP.FLYING_BOOM, 1]
+    [TROOP.FLYING_BOOM, 1],
+    [TROOP.GOBLIN, 0.6]
 ])
 
 var COLLECT_CONSTANT = {
@@ -201,6 +203,7 @@ var TROOP_ANIMATION ={
             [TROOP.ARCHER , 30],
             [TROOP.GIANT , 30],
             [TROOP.FLYING_BOOM, 30],
+            [TROOP.GOBLIN, 30],
             [TROOP.BUILDER, 30]
         ]),
         RUN :new Map([
@@ -208,6 +211,7 @@ var TROOP_ANIMATION ={
             [TROOP.ARCHER , 80],
             [TROOP.GIANT , 80],
             [TROOP.FLYING_BOOM, 80],
+            [TROOP.GOBLIN, 60],
             [TROOP.BUILDER, 40]
         ]),
         ATTACK:new Map([
@@ -215,6 +219,7 @@ var TROOP_ANIMATION ={
             [TROOP.ARCHER , 80],
             [TROOP.GIANT , 65],
             [TROOP.FLYING_BOOM, 60],
+            [TROOP.GOBLIN, 65],
             [TROOP.BUILDER, 40]
         ])
     },
@@ -223,6 +228,7 @@ var TROOP_ANIMATION ={
         [TROOP.ARCHER, cc.p(136,136)],
         [TROOP.GIANT, cc.p(340,340)],
         [TROOP.FLYING_BOOM, cc.p(200,322)],
+        [TROOP.GOBLIN, cc.p(146,146)],
         [TROOP.BUILDER, cc.p(100, 110)]
     ])
 };

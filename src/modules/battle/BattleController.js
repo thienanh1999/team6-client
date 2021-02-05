@@ -114,6 +114,7 @@ var _BattleController = cc.Class.extend({
             [TROOP.ARCHER, 0],
             [TROOP.GIANT, 0],
             [TROOP.FLYING_BOOM, 0],
+            [TROOP.GOBLIN,0]
         ]);
 
         if (this._noticeLayer != null) this._noticeLayer.reset();

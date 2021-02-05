@@ -106,83 +106,6 @@
             },
             "PressedFileData": {
               "Type": "Normal",
-              "Path": "guis/main_gui/setting.png",
-              "Plist": ""
-            },
-            "NormalFileData": {
-              "Type": "Normal",
-              "Path": "guis/main_gui/setting.png",
-              "Plist": ""
-            },
-            "Scale9Enable": true,
-            "Scale9OriginX": 15,
-            "Scale9OriginY": 11,
-            "Scale9Width": 28,
-            "Scale9Height": 38,
-            "OutlineColor": {
-              "G": 0,
-              "B": 0
-            },
-            "ShadowColor": {
-              "R": 110,
-              "G": 110,
-              "B": 110
-            },
-            "ShadowOffsetX": 2.0,
-            "ShadowOffsetY": -2.0,
-            "TouchEnable": true,
-            "AnchorPoint": {
-              "ScaleX": 0.5,
-              "ScaleY": 0.5
-            },
-            "Position": {
-              "X": 921.0,
-              "Y": 150.0
-            },
-            "Scale": {
-              "ScaleX": 1.0,
-              "ScaleY": 1.0
-            },
-            "CColor": {},
-            "IconVisible": false,
-            "PrePosition": {
-              "X": 0.9594,
-              "Y": 0.2344
-            },
-            "PreSize": {
-              "X": 0.0604,
-              "Y": 0.0938
-            },
-            "HorizontalEdge": "RightEdge",
-            "VerticalEdge": "BottomEdge",
-            "LeftMargin": 892.0,
-            "RightMargin": 10.0,
-            "TopMargin": 460.0,
-            "BottomMargin": 120.0,
-            "Tag": 56,
-            "ActionTag": -130246156,
-            "Size": {
-              "X": 58.0,
-              "Y": 60.0
-            },
-            "Name": "btn_setting",
-            "ctype": "ButtonObjectData"
-          },
-          {
-            "FontSize": 14,
-            "ButtonText": "",
-            "TextColor": {
-              "R": 65,
-              "G": 65,
-              "B": 70
-            },
-            "DisabledFileData": {
-              "Type": "Default",
-              "Path": "Default/Button_Disable.png",
-              "Plist": ""
-            },
-            "PressedFileData": {
-              "Type": "Normal",
               "Path": "guis/main_gui/kho.png",
               "Plist": ""
             },
@@ -213,8 +136,8 @@
               "ScaleY": 0.5
             },
             "Position": {
-              "X": 921.5,
-              "Y": 209.0
+              "X": 919.2164,
+              "Y": 147.5593
             },
             "Scale": {
               "ScaleX": 1.0,
@@ -223,8 +146,8 @@
             "CColor": {},
             "IconVisible": false,
             "PrePosition": {
-              "X": 0.9599,
-              "Y": 0.3266
+              "X": 0.9575,
+              "Y": 0.2306
             },
             "PreSize": {
               "X": 0.0594,
@@ -232,10 +155,10 @@
             },
             "HorizontalEdge": "RightEdge",
             "VerticalEdge": "BottomEdge",
-            "LeftMargin": 893.0,
-            "RightMargin": 10.0,
-            "TopMargin": 402.0,
-            "BottomMargin": 180.0,
+            "LeftMargin": 890.7164,
+            "RightMargin": 12.2836,
+            "TopMargin": 463.4407,
+            "BottomMargin": 118.5593,
             "Tag": 57,
             "ActionTag": 102814171,
             "Size": {
@@ -243,81 +166,6 @@
               "Y": 58.0
             },
             "Name": "btn_bunker",
-            "ctype": "ButtonObjectData"
-          },
-          {
-            "FontSize": 14,
-            "ButtonText": "",
-            "TextColor": {
-              "R": 65,
-              "G": 65,
-              "B": 70
-            },
-            "DisabledFileData": {
-              "Type": "Default",
-              "Path": "Default/Button_Disable.png",
-              "Plist": ""
-            },
-            "PressedFileData": {
-              "Type": "Normal",
-              "Path": "guis/chat/button chinh.png",
-              "Plist": ""
-            },
-            "NormalFileData": {
-              "Type": "Normal",
-              "Path": "guis/chat/button chinh.png",
-              "Plist": ""
-            },
-            "Scale9Enable": true,
-            "Scale9OriginX": 15,
-            "Scale9OriginY": 11,
-            "Scale9Width": 1,
-            "Scale9Height": 48,
-            "OutlineColor": {
-              "G": 0,
-              "B": 0
-            },
-            "ShadowColor": {
-              "R": 110,
-              "G": 110,
-              "B": 110
-            },
-            "ShadowOffsetX": 2.0,
-            "ShadowOffsetY": -2.0,
-            "TouchEnable": true,
-            "AnchorPoint": {
-              "ScaleX": 0.5,
-              "ScaleY": 0.5
-            },
-            "Position": {
-              "X": 15.5,
-              "Y": 320.0
-            },
-            "Scale": {
-              "ScaleX": 1.0,
-              "ScaleY": 1.0
-            },
-            "CColor": {},
-            "IconVisible": false,
-            "PrePosition": {
-              "X": 0.0161,
-              "Y": 0.5
-            },
-            "PreSize": {
-              "X": 0.0323,
-              "Y": 0.1094
-            },
-            "HorizontalEdge": "LeftEdge",
-            "RightMargin": 929.0,
-            "TopMargin": 285.0,
-            "BottomMargin": 285.0,
-            "Tag": 58,
-            "ActionTag": 629097569,
-            "Size": {
-              "X": 31.0,
-              "Y": 70.0
-            },
-            "Name": "btn_chat",
             "ctype": "ButtonObjectData"
           },
           {
@@ -442,8 +290,8 @@
               "ScaleY": 0.5
             },
             "Position": {
-              "X": 37.5,
-              "Y": 208.5
+              "X": 40.9252,
+              "Y": 154.8378
             },
             "Scale": {
               "ScaleX": 1.0,
@@ -452,8 +300,8 @@
             "CColor": {},
             "IconVisible": false,
             "PrePosition": {
-              "X": 0.0391,
-              "Y": 0.3258
+              "X": 0.0426,
+              "Y": 0.2419
             },
             "PreSize": {
               "X": 0.0573,
@@ -461,10 +309,10 @@
             },
             "HorizontalEdge": "LeftEdge",
             "VerticalEdge": "BottomEdge",
-            "LeftMargin": 10.0,
-            "RightMargin": 895.0,
-            "TopMargin": 403.0,
-            "BottomMargin": 180.0,
+            "LeftMargin": 13.4252,
+            "RightMargin": 891.5748,
+            "TopMargin": 456.6622,
+            "BottomMargin": 126.3378,
             "Tag": 60,
             "ActionTag": -495787722,
             "Size": {
@@ -472,83 +320,6 @@
               "Y": 57.0
             },
             "Name": "btn_clan_war",
-            "ctype": "ButtonObjectData"
-          },
-          {
-            "FontSize": 14,
-            "ButtonText": "",
-            "TextColor": {
-              "R": 65,
-              "G": 65,
-              "B": 70
-            },
-            "DisabledFileData": {
-              "Type": "Default",
-              "Path": "Default/Button_Disable.png",
-              "Plist": ""
-            },
-            "PressedFileData": {
-              "Type": "Normal",
-              "Path": "guis/main_gui/003left_ic05.png",
-              "Plist": ""
-            },
-            "NormalFileData": {
-              "Type": "Normal",
-              "Path": "guis/main_gui/003left_ic05.png",
-              "Plist": ""
-            },
-            "Scale9Enable": true,
-            "Scale9OriginX": 15,
-            "Scale9OriginY": 11,
-            "Scale9Width": 25,
-            "Scale9Height": 35,
-            "OutlineColor": {
-              "G": 0,
-              "B": 0
-            },
-            "ShadowColor": {
-              "R": 110,
-              "G": 110,
-              "B": 110
-            },
-            "ShadowOffsetX": 2.0,
-            "ShadowOffsetY": -2.0,
-            "TouchEnable": true,
-            "AnchorPoint": {
-              "ScaleX": 0.5,
-              "ScaleY": 0.5
-            },
-            "Position": {
-              "X": 37.5,
-              "Y": 148.5
-            },
-            "Scale": {
-              "ScaleX": 1.0,
-              "ScaleY": 1.0
-            },
-            "CColor": {},
-            "IconVisible": false,
-            "PrePosition": {
-              "X": 0.0391,
-              "Y": 0.232
-            },
-            "PreSize": {
-              "X": 0.0573,
-              "Y": 0.0891
-            },
-            "HorizontalEdge": "LeftEdge",
-            "VerticalEdge": "BottomEdge",
-            "LeftMargin": 10.0,
-            "RightMargin": 895.0,
-            "TopMargin": 463.0,
-            "BottomMargin": 120.0,
-            "Tag": 61,
-            "ActionTag": -203375312,
-            "Size": {
-              "X": 55.0,
-              "Y": 57.0
-            },
-            "Name": "btn_train_troop",
             "ctype": "ButtonObjectData"
           }
         ],
@@ -561,12 +332,9 @@
       },
       "UsedResources": [
         "../Default/Button_Disable.png",
-        "../guis/chat/button chinh.png",
         "../guis/main_gui/003left_ic04.png",
-        "../guis/main_gui/003left_ic05.png",
         "../guis/main_gui/attack.png",
         "../guis/main_gui/kho.png",
-        "../guis/main_gui/setting.png",
         "../guis/main_gui/shop.png"
       ],
       "ctype": "GameFileData"

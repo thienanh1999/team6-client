@@ -73,6 +73,7 @@
         "src/entity/troop/Archer.js",
         "src/entity/troop/FlyingBoom.js",
         "src/entity/troop/Giant.js",
+        "src/entity/troop/Goblin.js",
         "src/entity/troop/Builder.js",
         "src/utils/StringUtil.js",
         "src/utils/Responsive.js",

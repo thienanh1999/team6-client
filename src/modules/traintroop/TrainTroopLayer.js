@@ -359,7 +359,6 @@ var TrainTroopLayer = cc.Layer.extend({
     },
 
     _cancelTrain: function (typeTroop) {
-        // TODO: send to server
         testnetwork.connector.sendDeleteTrainTroop(this._barrack.id, typeTroop);
         // test
         let troopLevel = User.getInstance().getTroopsLevel().get(typeTroop);
@@ -371,7 +370,7 @@ var TrainTroopLayer = cc.Layer.extend({
 
     _updateQueue:function (){
         let i = 0;
-        for ([typeTroop, quantity] of this._trainQueue){
+        for (let [typeTroop, quantity] of this._trainQueue){
             let imvTroopInQueue = this._queueGUI[i];
             imvTroopInQueue.getChildByName("imv_troop").loadTexture(TROOP_ICON_PATH.SMALL_ICON+typeTroop+".png");
             imvTroopInQueue.getChildByName("lb_quantity").setString("x"+quantity);
@@ -387,6 +386,10 @@ var TrainTroopLayer = cc.Layer.extend({
         for (;i<QUEUE_GUI_LENGTH; i++){
             this._queueGUI[i].setVisible(false);
         }
+    },
+
+    _addBTNCancelTrainListener:function (){
+
     },
 
     _close: function () {
