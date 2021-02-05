@@ -26,6 +26,7 @@ var TrainTroopLayer = cc.Layer.extend({
     _typeCancel : null,
     _timeStartTouch : 0,
     _delayTime :0,
+    _pauseTouchEvent: false,
     ctor:function (barrackManage){
         this._super();
 
@@ -41,6 +42,7 @@ var TrainTroopLayer = cc.Layer.extend({
 
     _updateTouchEvent: function (dt){
         if (!this._visible) return;
+        if (this._pauseTouchEvent) return;
         let deltaTime = (new Date()).getTime() - this._timeStartTouch;
         if (deltaTime<TIME_TO_TRIGGER_LONG_PRESS) return;
         this._delayTime -= dt;
@@ -53,6 +55,7 @@ var TrainTroopLayer = cc.Layer.extend({
     },
 
     reset: function (){
+        this._pauseTouchEvent=false;
         this._timeStartTouch = 0;
         this._touchedToTrain = false;
         this._touchedToCancelTrain = false;
@@ -317,7 +320,7 @@ var TrainTroopLayer = cc.Layer.extend({
     },
 
     _preTrain:function (typeTroop, troopLevel){
-        // this._visible = false;
+        this._pauseTouchEvent = true;
         let elixirNeed = ConfigAPI.getInstance().getTroopInfo(typeTroop, troopLevel)["trainingElixir"];
         let checkResource = MapController.getInstance().checkResource(0, elixirNeed, 0, 0);
         let gT = MapController.getInstance().transferG(0,elixirNeed,0);
@@ -341,15 +344,15 @@ var TrainTroopLayer = cc.Layer.extend({
     _confirmTrain: function () {
         MapController.getInstance().executeCostResource(this._cost);
         this._train(this._typeTroopToTrain)
-
     },
 
     _cancelCallback: function () {
-
+        this._pauseTouchEvent = false;
     },
 
     _train: function (typeTroop) {
         testnetwork.connector.sendTrainTroop(this._barrack.id, typeTroop);
+        this._pauseTouchEvent = false;
         // test
         this._barrack.train(typeTroop);
         this.update();
