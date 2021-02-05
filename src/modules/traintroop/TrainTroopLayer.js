@@ -1,4 +1,6 @@
 var QUEUE_GUI_LENGTH = 5;
+var DEFAULT_DELAY_TIME = 0.2;
+var TIME_TO_TRIGGER_LONG_PRESS = 800; // ms
 var TrainTroopLayer = cc.Layer.extend({
     _layer : null,
     _visible : null,
@@ -16,6 +18,14 @@ var TrainTroopLayer = cc.Layer.extend({
     _oldBarrackSpace : null,
     _oldQuantity : null,
     _oldQueueSize : null,
+    // touch event
+    _touchedToTrain: false,
+    _typeTrain : null,
+    _levelTrain : null,
+    _touchedToCancelTrain: false,
+    _typeCancel : null,
+    _timeStartTouch : 0,
+    _delayTime :0,
     ctor:function (barrackManage){
         this._super();
 
@@ -26,9 +36,32 @@ var TrainTroopLayer = cc.Layer.extend({
         this._barrackManage = barrackManage;
         this._isTraining = false;
         this._listBtnTroopCanTrain = [];
+        this.schedule(this._updateTouchEvent.bind(this),0.02);
+    },
+
+    _updateTouchEvent: function (dt){
+        if (!this._visible) return;
+        let deltaTime = (new Date()).getTime() - this._timeStartTouch;
+        if (deltaTime<TIME_TO_TRIGGER_LONG_PRESS) return;
+        this._delayTime -= dt;
+        if (this._delayTime>0) return;
+        this._delayTime = DEFAULT_DELAY_TIME/(deltaTime/1000);
+        if (this._touchedToTrain===true){
+            this._checkListTroop();
+            if (this._troopCanTrain.canTrain) this._preTrain(this._typeTrain,this._levelTrain);
+        }
+    },
+
+    reset: function (){
+        this._timeStartTouch = 0;
+        this._touchedToTrain = false;
+        this._touchedToCancelTrain = false;
+        this._delayTime = DEFAULT_DELAY_TIME;
+        this._lvListTroop.removeAllChildren(true);
     },
 
     load:function(barrack){
+        this.reset();
         this._barrack = barrack;
         this._trainQueue = this._barrack.getTrainQueue();
         this._oldBarrackSpace = null;
@@ -88,7 +121,6 @@ var TrainTroopLayer = cc.Layer.extend({
     },
 
     _loadListTroop:function(){
-        this._lvListTroop.removeAllChildren(true);
         this.o = 0;
         var troopsLevel = User.getInstance().getTroopsLevel();
         for ([type, level] of troopsLevel){
@@ -106,14 +138,11 @@ var TrainTroopLayer = cc.Layer.extend({
                 btnTroop.getChildByName("lb_level").setString(level);
                 var troopInfo = ConfigAPI.getInstance().getTroopInfo(type, level);
                 btnTroop.getChildByName("lb_cost").setString(troopInfo["trainingElixir"]);
+                let troopCanTrain = {type: troopType, level: troopLevel, button: btnTroop, canTrain: true};
                 if (!this._barrack.isBuilding()) {
-                    btnTroop.setPressedActionEnabled(true);
-                    btnTroop.addClickEventListener((function () {
-                        cc.log("train " + troopType);
-                        this._preTrain(troopType, troopLevel);
-                    }).bind(this))
+                    this._addBTNTrainListener(troopCanTrain);
                 }
-                this._listBtnTroopCanTrain.push({type: troopType, level: level, button: btnTroop});
+                this._listBtnTroopCanTrain.push(troopCanTrain);
             }
             else {
                 btnTroop.setBright(false);
@@ -128,6 +157,47 @@ var TrainTroopLayer = cc.Layer.extend({
         }
     },
 
+    _addBTNTrainListener: function (troopCanTrain){
+        let type = troopCanTrain.type;
+        let level = troopCanTrain.level;
+        let button = troopCanTrain.button.getChildByName("imv_troop");
+        let self = this;
+        cc.eventManager.addListener({
+            event: cc.EventListener.TOUCH_ONE_BY_ONE,
+            swallowTouches: true,
+            onTouchBegan: function (touch, event){
+                if (!self._visible) return false;
+                let target = event.getCurrentTarget();
+                let locationInNode = target.convertToNodeSpace(touch.getLocation());
+                let size = target.getContentSize();
+                let rect = cc.rect(0,0,size.width,size.height);
+                if (cc.rectContainsPoint(rect,locationInNode)){
+                    self._timeStartTouch = (new Date()).getTime();
+                    self._touchedToTrain = true;
+                    self._typeTrain = type;
+                    self._levelTrain = level;
+                    self._troopCanTrain = troopCanTrain;
+                    troopCanTrain.button.scale = 1.1;
+                    return true;
+                }
+                return false;
+            },
+            onTouchMoved: function (){
+            },
+            onTouchEnded:function (){
+                let deltaTime = (new Date()).getTime()- self._timeStartTouch;
+                if (deltaTime<1000){
+                    self._checkListTroop();
+                    if (self._troopCanTrain.canTrain){
+                        self._preTrain(self._typeTrain,self._levelTrain);
+                    }
+                }
+                self._touchedToTrain = false;
+                self._troopCanTrain.button.scale = 1;
+            }
+        },button);
+    },
+
     _checkListTroop:function (){
         for (let i = 0; i<this._listBtnTroopCanTrain.length; i++){
             let troopCanTrain = this._listBtnTroopCanTrain[i];
@@ -136,11 +206,13 @@ var TrainTroopLayer = cc.Layer.extend({
                 troopCanTrain.button.setBright(false);
                 troopCanTrain.button.setEnabled(false);
                 troopCanTrain.button.getChildByName("imv_troop").setColor(new cc.Color(120,120,120,150));
+                troopCanTrain.canTrain = false;
             }
             else{
                 troopCanTrain.button.setBright(true);
                 troopCanTrain.button.setEnabled(true);
                 troopCanTrain.button.getChildByName("imv_troop").setColor(new cc.Color(255,255,255,255));
+                troopCanTrain.canTrain = true;
                 //troopCanTrain.button.set
             }
             let cost = troopInfo["trainingElixir"];
@@ -245,6 +317,7 @@ var TrainTroopLayer = cc.Layer.extend({
     },
 
     _preTrain:function (typeTroop, troopLevel){
+        // this._visible = false;
         let elixirNeed = ConfigAPI.getInstance().getTroopInfo(typeTroop, troopLevel)["trainingElixir"];
         let checkResource = MapController.getInstance().checkResource(0, elixirNeed, 0, 0);
         let gT = MapController.getInstance().transferG(0,elixirNeed,0);

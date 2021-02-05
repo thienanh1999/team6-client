@@ -12,7 +12,6 @@ var _User = cc.Class.extend({
     _troops: null,
     _trophy: null,
     ctor: function () {
-        // TODO
         // test
         this._g = 100000;
         this._elixir = 5000000;
