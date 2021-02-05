@@ -1,5 +1,7 @@
 var _PopupLayer = cc.Layer.extend({
     // TODO: disable all other touch when popup
+    swallow1Touch: false,
+
     ctor: function() {
         this._super();
 
@@ -494,6 +496,7 @@ var _PopupLayer = cc.Layer.extend({
     },
 
     endShow: function() {
+        this.swallow1Touch = true;
         if (this.panel!=null)this.removeChild(this.panel, true);
     },
 

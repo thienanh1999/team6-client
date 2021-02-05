@@ -193,6 +193,7 @@ var MapLayer = cc.Layer.extend({
                         if (movingObject && self.selectedObject.canMove) {
                             // Move Object
                             var tilePos = self._tileMap.convertTouchToTilePosition(touch.getLocation());
+                            self.selectedObject.setLocalZOrder(1000);
                             self.objectTemporaryPos = cc.p(tilePos.x, tilePos.y);
                             self.moveStructure(self.selectedObject, tilePos);
                         } else {
@@ -232,6 +233,11 @@ var MapLayer = cc.Layer.extend({
             }.bind(this),
             onTouchesEnded: function(touches, event) {
                 if (self.touchable) {
+                    if (PopupLayer.getInstance().swallow1Touch) {
+                        PopupLayer.getInstance().swallow1Touch = false;
+                        return;
+                    }
+
                     // Single Touch
                     if (touches.length == 1 && centerPinch == null) {
                         var touch = touches[0];
@@ -247,6 +253,7 @@ var MapLayer = cc.Layer.extend({
                                 // draw lines
                                 var mapController = MapController.getInstance();
                                 self._arrowLayer.drawLines(mapController._map.id, mapController._objectByID);
+                                self.resetObjectZOrder(self.selectedObject);
                                 var objectState = self.selectedObject.state;
                                 if (NumberUtils.getBitAt(objectState, 0) === 0) {
                                     testnetwork.connector.sendMove(self.selectedObject.id, self.selectedObject.position.x, self.selectedObject.position.y);

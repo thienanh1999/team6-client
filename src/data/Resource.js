@@ -147,7 +147,8 @@ var MAP = {
     OBSTACLE_BG: [
         "map/map_obj_bg/grass_0_2_obs.png",
         "map/map_obj_bg/grass_0_3_obs.png"
-    ]
+    ],
+    UPGRADING_FENCE: "map/map_obj_bg/upgrading.png"
 };
 
 var ACTIONS = {

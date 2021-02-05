@@ -53,6 +53,23 @@ var Structure = Entity.extend({
         this.blood.setOpacity(0);
     },
 
+    createBuildInfo: function () {
+        if (this.type === STRUCTURE.WALL)
+            return;
+
+        var fence = new cc.Sprite(MAP.UPGRADING_FENCE);
+        fence.attr({
+            anchorX: 0.5,
+            anchorY: 0,
+            x: this.width / 2,
+            y: -this.size.y * TILE_HEIGHT / 2,
+            scale: 2.0
+        });
+        fence.setVisible(false);
+        this.fence = fence;
+        this.addChild(fence);
+        this._super();
+    },
 
     loadConfig: function (config) {
     },
@@ -234,11 +251,28 @@ var Structure = Entity.extend({
             this.removeChild(this._cancelButton, true);
         }
 
+        // create upgrading fence
+        if (this.type !== STRUCTURE.WALL) {
+            this.fence.setVisible(true);
+        }
+
+        // upgrading label and time
         this.buildingTime = TimeUtils.getTimeStamp();
         this.state = NumberUtils.clearBit(this.state, 0);
         this.state = NumberUtils.setBit(this.state, 1);
         this.displayBuildingTime();
-        this.onCancelSelect();
+
+        // reselect
+        this.onSelect();
+        var self = this;
+        ActionLayer.getInstance().hide();
+        this.runAction(cc.sequence(
+            cc.delayTime(0.25),
+            cc.callFunc(function () {
+                MapController.getInstance().getMapLayer().selectedObject = self;
+                ActionLayer.getInstance().display(self);
+            })
+        ))
     },
 
     displayBuildingTime: function () {
@@ -339,6 +373,7 @@ var Structure = Entity.extend({
             this.createBaseSprite(this.getIdlePath(this.level));
         }
 
+        // Update Level label & run level up animation
         this._levelLabel.setString("Level " + this.level);
         this._levelUpSpite.setVisible(true);
         this._levelUpSpite.runAction(cc.sequence(
@@ -348,8 +383,20 @@ var Structure = Entity.extend({
             }.bind(this))
         ));
 
+        // Load config
         var config = ConfigAPI.getInstance().getEntityInfo(this.type, this.level);
         this.loadConfig(config);
+
+        // hide fence
+        if (this.type !== STRUCTURE.WALL) {
+            this.fence.setVisible(false);
+        }
+    },
+    updateTimeLabel: function (currentTime) {
+        this._super(currentTime);
+        if (this.type !== STRUCTURE.WALL) {
+            this.fence.setVisible(true);
+        }
     },
     onMoved: function() {
         MapController.getInstance().getMapLayer()._grassLayer.move(this);

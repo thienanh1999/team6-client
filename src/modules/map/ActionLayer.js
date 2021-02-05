@@ -75,6 +75,7 @@ var _ActionLayer = cc.LayerColor.extend({
             var cost = mapController.timeTransferG(timeLeft);
             var userG = User.getInstance().getG();
 
+            self.hide();
             if (cost > userG) {
                 PopupLayer.getInstance().popupChargeG();
             } else {
@@ -93,11 +94,14 @@ var _ActionLayer = cc.LayerColor.extend({
                 testnetwork.connector.sendUpgradeFast(structure.id, builder.id);
                 structure.onCancelSelect();
                 structure.onBuildSuccess();
-                var mapLayer = mapController.getMapLayer();
-                mapLayer.selectedObject = null;
+                self.runAction(cc.sequence(
+                    cc.delayTime(0.25),
+                    cc.callFunc(function () {
+                        self.display(this);
+                        structure.onSelect();
+                    })
+                ))
             }
-
-            self.hide();
         });
         this._remove.addClickEventListener(function() {
             var obstacle = MapController.getInstance().getMapLayer().selectedObject;
