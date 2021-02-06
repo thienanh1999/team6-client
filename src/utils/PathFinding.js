@@ -161,7 +161,8 @@ var Bfs = {
         let x2, y2;
         if (x >= 0 && x < this.height && y >= 0 && y < this.width && this.mark[position.x][position.y] === 0) {
             if (this.mapId[x][y] === -1) return true;
-            else return false;
+            return this.mapId[x][y] === 1 && (position.x === 0 || position.y === 0);
+
         }
         return false;
     },

@@ -8,6 +8,7 @@ var _MapController = cc.Class.extend({
     allocatedBuilder: false,
     copy: [],
     _resetTroop: false,
+    _listBuilderHut: null,
     ctor: function () {
         this._buildingStructures = [];
         this._zeroTimeBuilings = [];
@@ -26,6 +27,7 @@ var _MapController = cc.Class.extend({
         this._map.structure.set(STRUCTURE.CANON, []);
         this._map.structure.set(STRUCTURE.BARRACK, []);
         this._map.structure.set(STRUCTURE.BUILDER_HUT, []);
+        this._listBuilderHut = this._map.structure.get(STRUCTURE.BUILDER_HUT);
     },
 
     update: function (n) {
@@ -61,7 +63,12 @@ var _MapController = cc.Class.extend({
         }
         this.barrackManage.update(currentTimeStamp);
         this._resourceLayer.update();
-        if (this.allocatedBuilder == false) {
+
+        // update builder animation
+        for (let i=0;i<this._listBuilderHut.length;i++){
+            this._listBuilderHut[i].update();
+        }
+        if (this.allocatedBuilder === false) {
             this.allocateBuilder();
             this.allocatedBuilder = true;
         }
