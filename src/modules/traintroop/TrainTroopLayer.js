@@ -398,7 +398,6 @@ var TrainTroopLayer = cc.Layer.extend({
     _train: function (typeTroop) {
         testnetwork.connector.sendTrainTroop(this._barrack.id, typeTroop);
         this._pauseTouchEvent = false;
-        // test
         this._barrack.train(typeTroop);
         this.update();
     },

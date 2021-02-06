@@ -12,6 +12,8 @@ var BuilderHut = Structure.extend({
         if (this.builder == null) {
             this.builder = new Builder(-1, this.position, this.id);
             MapController.getInstance().getMapLayer().putTroopToMap(this.builder);
+        } else{
+            MapController.getInstance().getMapLayer().putTroopToPosition(this.builder,this.position);
         }
 
         this.building = structure;

@@ -69,7 +69,6 @@ var Builder = cc.Sprite.extend({
             this._oldDir = direction;
         }
 
-
     },
     initAnimation: function () {
         let nameFolder = this.type + "_" + this.level + "/";
