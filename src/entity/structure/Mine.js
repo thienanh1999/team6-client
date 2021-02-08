@@ -67,6 +67,7 @@ var Mine = Structure.extend({
         var amount = this.calculateRes();
         if (amount > 0) {
             this.addResource(amount);
+            this.runHarvestEffect();
             testnetwork.connector.sendCollect(this.id);
 
             // Animation
@@ -82,7 +83,6 @@ var Mine = Structure.extend({
                     this._harvestLabel.setVisible(false);
                 }.bind(this))
             ));
-            // TODO: Animation
 
             this.lastHarvestTime = TimeUtils.getTimeStamp();
             this.displayPopup();

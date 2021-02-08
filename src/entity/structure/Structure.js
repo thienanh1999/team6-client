@@ -226,6 +226,9 @@ var Structure = Entity.extend({
 
         this._acceptButton = acceptButton;
         this._cancelButton = cancelButton;
+
+        this._levelLabel.y = this._levelLabel.y + 75;
+        this._spriteName.y = this._spriteName.y + 75;
     },
 
     onCancelBuild: function() {
@@ -263,12 +266,13 @@ var Structure = Entity.extend({
         this.displayBuildingTime();
 
         // reselect
-        this.onSelect();
+        this.onCancelSelect();
         var self = this;
         ActionLayer.getInstance().hide();
         this.runAction(cc.sequence(
             cc.delayTime(0.25),
             cc.callFunc(function () {
+                self.onSelect();
                 MapController.getInstance().getMapLayer().selectedObject = self;
                 ActionLayer.getInstance().display(self);
             })

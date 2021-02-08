@@ -70,11 +70,6 @@ var GoldMine = Mine.extend({
             actionLayer.enableButton(button);
         }
     },
-
-    harvest: function() {
-        this._super();
-        this.runHarvestEffect();
-    },
     runHarvestEffect: function() {
         for (var i = 0; i < this.NUMBER_OF_COIN_DROP; i++) {
             var coindrop = this._coindropSprite[i];
