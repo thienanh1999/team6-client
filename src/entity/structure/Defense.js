@@ -84,7 +84,7 @@ var Defense = Structure.extend({
             if (troop.type === TROOP.FLYING_BOOM && this.attackArea === 1) continue;
             if (this.calculateRange(x, y) < this.minRange || this.calculateRange(x, y) > this.maxRange) continue;
             if (troop.isDied) continue;
-            cc.log(BattleController.getInstance()._tick + " " + this.type + " " + this.id + "Defense attack " + x + " " + y);
+            // cc.log(BattleController.getInstance()._tick + " " + this.type + " " + this.id + "Defense attack " + x + " " + y);
             this.rotate(x, y);
             this.resetTime();
             if (this.attackRadius != 0) this.bullet = [this.damagePerShot, x, y, this.attackSpeed / 2];
@@ -128,9 +128,9 @@ var Defense = Structure.extend({
                 for (let i = 0; i < listTroop.length; i++) {
                     var troop = listTroop[i];
                     var x = troop.position.x, y = troop.position.y;
-                    cc.log(x + " " + y);
+                    // cc.log(x + " " + y);
                     if (Calculate.calculateRange(x, y, this.bullet[Defense.X], this.bullet[Defense.Y]) <= this.attackRadius) {
-                        cc.log("Ok")
+                        // cc.log("Ok")
                         this.TroopDame(troop.id, this.bullet[Defense.DAME]);
                     }
                 }
@@ -151,13 +151,13 @@ var Defense = Structure.extend({
     },
     TroopDame: function (troopId, dame) {
         // cc.log("Troop Dame", troopId);
-        cc.log(BattleController.getInstance()._tick + " Troop " + troopId + " " + dame);
+        // cc.log(BattleController.getInstance()._tick + " Troop " + troopId + " " + dame);
         // BattleController.getInstance().
         var listTroop = BattleController.getInstance()._listTroop;
         var troop;
         for (troop of listTroop) {
             if (troop.id == troopId) {
-                cc.log(troop.position.x + " " + troop.position.y);
+                // cc.log(troop.position.x + " " + troop.position.y);
                 troop.updateHitPoint(dame);
             }
         }

@@ -1,4 +1,6 @@
 var QUEUE_GUI_LENGTH = 5;
+var DEFAULT_DELAY_TIME = 0.2;
+var TIME_TO_TRIGGER_LONG_PRESS = 800; // ms
 var TrainTroopLayer = cc.Layer.extend({
     _layer : null,
     _visible : null,
@@ -16,6 +18,15 @@ var TrainTroopLayer = cc.Layer.extend({
     _oldBarrackSpace : null,
     _oldQuantity : null,
     _oldQueueSize : null,
+    // touch event
+    _touchedToTrain: false,
+    _typeTrain : null,
+    _levelTrain : null,
+    _touchedToCancelTrain: false,
+    _typeCancel : null,
+    _timeStartTouch : 0,
+    _delayTime :0,
+    _pauseTouchEvent: false,
     ctor:function (barrackManage){
         this._super();
 
@@ -26,9 +37,42 @@ var TrainTroopLayer = cc.Layer.extend({
         this._barrackManage = barrackManage;
         this._isTraining = false;
         this._listBtnTroopCanTrain = [];
+        this.schedule(this._updateTouchEvent.bind(this),0.02);
+    },
+
+    _updateTouchEvent: function (dt){
+        if (!this._visible) return;
+        if (this._pauseTouchEvent) return;
+        let deltaTime = (new Date()).getTime() - this._timeStartTouch;
+        if (deltaTime<TIME_TO_TRIGGER_LONG_PRESS) return;
+        this._delayTime -= dt;
+        if (this._delayTime>0) return;
+        this._delayTime = DEFAULT_DELAY_TIME/(deltaTime/1000);
+        if (this._touchedToTrain===true){
+            this._checkListTroop();
+            if (this._troopCanTrain.canTrain) this._preTrain(this._typeTrain,this._levelTrain);
+        }
+        else if (this._touchedToCancelTrain===true){
+            this._cancelTrain(this._typeCancel);
+            this._updateQueue();
+        }
+    },
+
+    reset: function (){
+        this._pauseTouchEvent=false;
+        this._timeStartTouch = 0;
+        this._touchedToTrain = false;
+        this._touchedToCancelTrain = false;
+        this._delayTime = DEFAULT_DELAY_TIME;
+        this._lvListTroop.removeAllChildren(true);
+        this._listTraining = [];
+        for (let i=0;i<QUEUE_GUI_LENGTH;i++){
+            this._listTraining.push(null);
+        }
     },
 
     load:function(barrack){
+        this.reset();
         this._barrack = barrack;
         this._trainQueue = this._barrack.getTrainQueue();
         this._oldBarrackSpace = null;
@@ -88,7 +132,6 @@ var TrainTroopLayer = cc.Layer.extend({
     },
 
     _loadListTroop:function(){
-        this._lvListTroop.removeAllChildren(true);
         this.o = 0;
         var troopsLevel = User.getInstance().getTroopsLevel();
         for ([type, level] of troopsLevel){
@@ -106,14 +149,11 @@ var TrainTroopLayer = cc.Layer.extend({
                 btnTroop.getChildByName("lb_level").setString(level);
                 var troopInfo = ConfigAPI.getInstance().getTroopInfo(type, level);
                 btnTroop.getChildByName("lb_cost").setString(troopInfo["trainingElixir"]);
+                let troopCanTrain = {type: troopType, level: troopLevel, button: btnTroop, canTrain: true};
                 if (!this._barrack.isBuilding()) {
-                    btnTroop.setPressedActionEnabled(true);
-                    btnTroop.addClickEventListener((function () {
-                        cc.log("train " + troopType);
-                        this._preTrain(troopType, troopLevel);
-                    }).bind(this))
+                    this._addBTNTrainListener(troopCanTrain);
                 }
-                this._listBtnTroopCanTrain.push({type: troopType, level: level, button: btnTroop});
+                this._listBtnTroopCanTrain.push(troopCanTrain);
             }
             else {
                 btnTroop.setBright(false);
@@ -128,6 +168,79 @@ var TrainTroopLayer = cc.Layer.extend({
         }
     },
 
+    _addBTNCancelTrainListener:function (imageView, index){
+        let self = this;
+        cc.eventManager.addListener({
+            event: cc.EventListener.TOUCH_ONE_BY_ONE,
+            swallowTouches: true,
+            onTouchBegan: function (touch, event){
+                if (!self._visible) return false;
+                let target = event.getCurrentTarget();
+                let locationInNode = target.convertToNodeSpace(touch.getLocation());
+                let size = target.getContentSize();
+                let rect = cc.rect(0,0,size.width,size.height);
+                if (cc.rectContainsPoint(rect,locationInNode)){
+                    self._timeStartTouch = (new Date()).getTime();
+                    self._touchedToCancelTrain = true;
+                    self._typeCancel = self._listTraining[index];
+                    imageView.scale = 1.1;
+                    return true;
+                }
+                return false;
+            },
+            onTouchEnded: function (){
+                imageView.scale = 1;
+                self._touchedToCancelTrain = false;
+                let deltaTime = (new Date()).getTime() - self._timeStartTouch;
+                if (deltaTime<TIME_TO_TRIGGER_LONG_PRESS){
+                    self._cancelTrain(self._listTraining[index]);
+                    self._updateQueue();
+                }
+            }
+        },imageView)
+    },
+
+    _addBTNTrainListener: function (troopCanTrain){
+        let type = troopCanTrain.type;
+        let level = troopCanTrain.level;
+        let button = troopCanTrain.button.getChildByName("imv_troop");
+        let self = this;
+        cc.eventManager.addListener({
+            event: cc.EventListener.TOUCH_ONE_BY_ONE,
+            swallowTouches: true,
+            onTouchBegan: function (touch, event){
+                if (!self._visible) return false;
+                let target = event.getCurrentTarget();
+                let locationInNode = target.convertToNodeSpace(touch.getLocation());
+                let size = target.getContentSize();
+                let rect = cc.rect(0,0,size.width,size.height);
+                if (cc.rectContainsPoint(rect,locationInNode)){
+                    self._timeStartTouch = (new Date()).getTime();
+                    self._touchedToTrain = true;
+                    self._typeTrain = type;
+                    self._levelTrain = level;
+                    self._troopCanTrain = troopCanTrain;
+                    troopCanTrain.button.scale = 1.1;
+                    return true;
+                }
+                return false;
+            },
+            onTouchMoved: function (){
+            },
+            onTouchEnded:function (){
+                let deltaTime = (new Date()).getTime()- self._timeStartTouch;
+                if (deltaTime<TIME_TO_TRIGGER_LONG_PRESS){
+                    self._checkListTroop();
+                    if (self._troopCanTrain.canTrain){
+                        self._preTrain(self._typeTrain,self._levelTrain);
+                    }
+                }
+                self._touchedToTrain = false;
+                self._troopCanTrain.button.scale = 1;
+            }
+        },button);
+    },
+
     _checkListTroop:function (){
         for (let i = 0; i<this._listBtnTroopCanTrain.length; i++){
             let troopCanTrain = this._listBtnTroopCanTrain[i];
@@ -136,11 +249,13 @@ var TrainTroopLayer = cc.Layer.extend({
                 troopCanTrain.button.setBright(false);
                 troopCanTrain.button.setEnabled(false);
                 troopCanTrain.button.getChildByName("imv_troop").setColor(new cc.Color(120,120,120,150));
+                troopCanTrain.canTrain = false;
             }
             else{
                 troopCanTrain.button.setBright(true);
                 troopCanTrain.button.setEnabled(true);
                 troopCanTrain.button.getChildByName("imv_troop").setColor(new cc.Color(255,255,255,255));
+                troopCanTrain.canTrain = true;
                 //troopCanTrain.button.set
             }
             let cost = troopInfo["trainingElixir"];
@@ -167,14 +282,19 @@ var TrainTroopLayer = cc.Layer.extend({
         // queue
         this._queue0 = this._layer.getChildByName("imv_training_layer").getChildByName("imv_troop_training");
         this._queue0.setVisible(false);
+        this._addBTNCancelTrainListener(this._queue0,0);
         this._queue1 = this._layer.getChildByName("imv_training_layer").getChildByName("imv_troop_training1");
         this._queue1.setVisible(false);
+        this._addBTNCancelTrainListener(this._queue1,1);
         this._queue2 = this._layer.getChildByName("imv_training_layer").getChildByName("imv_troop_training2");
         this._queue2.setVisible(false);
+        this._addBTNCancelTrainListener(this._queue2,2);
         this._queue3 = this._layer.getChildByName("imv_training_layer").getChildByName("imv_troop_training3");
         this._queue3.setVisible(false);
+        this._addBTNCancelTrainListener(this._queue3,3);
         this._queue4 = this._layer.getChildByName("imv_training_layer").getChildByName("imv_troop_training4");
         this._queue4.setVisible(false);
+        this._addBTNCancelTrainListener(this._queue4,4);
         this._queueGUI = [this._queue0, this._queue1, this._queue2, this._queue3, this._queue4]
         // component
         var widget = ccs.load(MAIN_GUI.TRAIN_TROOP_COMPONENT, "").node;
@@ -245,6 +365,7 @@ var TrainTroopLayer = cc.Layer.extend({
     },
 
     _preTrain:function (typeTroop, troopLevel){
+        this._pauseTouchEvent = true;
         let elixirNeed = ConfigAPI.getInstance().getTroopInfo(typeTroop, troopLevel)["trainingElixir"];
         let checkResource = MapController.getInstance().checkResource(0, elixirNeed, 0, 0);
         let gT = MapController.getInstance().transferG(0,elixirNeed,0);
@@ -268,50 +389,55 @@ var TrainTroopLayer = cc.Layer.extend({
     _confirmTrain: function () {
         MapController.getInstance().executeCostResource(this._cost);
         this._train(this._typeTroopToTrain)
-
     },
 
     _cancelCallback: function () {
-
+        this._pauseTouchEvent = false;
     },
 
     _train: function (typeTroop) {
         testnetwork.connector.sendTrainTroop(this._barrack.id, typeTroop);
-        // test
+        this._pauseTouchEvent = false;
         this._barrack.train(typeTroop);
         this.update();
     },
 
     _cancelTrain: function (typeTroop) {
-        // TODO: send to server
-        testnetwork.connector.sendDeleteTrainTroop(this._barrack.id, typeTroop);
-        // test
-        let troopLevel = User.getInstance().getTroopsLevel().get(typeTroop);
-        let elixir = -ConfigAPI.getInstance().getTroopInfo(typeTroop, troopLevel)["trainingElixir"];
-        MapController.getInstance().executeCostResource({elixir:elixir});
-        this._barrack.cancelTrain(typeTroop);
-        this.update()
+        if (this._trainQueue.has(typeTroop))
+        {
+            testnetwork.connector.sendDeleteTrainTroop(this._barrack.id, typeTroop);
+            let troopLevel = User.getInstance().getTroopsLevel().get(typeTroop);
+            let elixir = -ConfigAPI.getInstance().getTroopInfo(typeTroop, troopLevel)["trainingElixir"];
+            MapController.getInstance().executeCostResource({elixir:elixir});
+            this._barrack.cancelTrain(typeTroop);
+            this.update()
+        }
     },
 
     _updateQueue:function (){
         let i = 0;
-        for ([typeTroop, quantity] of this._trainQueue){
+        for (let [typeTroop, quantity] of this._trainQueue){
             let imvTroopInQueue = this._queueGUI[i];
-            imvTroopInQueue.getChildByName("imv_troop").loadTexture(TROOP_ICON_PATH.SMALL_ICON+typeTroop+".png");
+            if (typeTroop!==this._listTraining[i]) {
+                cc.log("load textures");
+                imvTroopInQueue.getChildByName("imv_troop").loadTexture(TROOP_ICON_PATH.SMALL_ICON+typeTroop+".png");
+                this._listTraining[i] = typeTroop;
+            }
             imvTroopInQueue.getChildByName("lb_quantity").setString("x"+quantity);
             imvTroopInQueue.setVisible(true);
             i += 1;
             // set cancel train button listener
             let typeCancel = typeTroop;
-            imvTroopInQueue.getChildByName("btn_cancel_train").setPressedActionEnabled(true);
-            imvTroopInQueue.getChildByName("btn_cancel_train").addClickEventListener((function(){
-                this._cancelTrain(typeCancel);
-            }).bind(this))
+            // imvTroopInQueue.getChildByName("btn_cancel_train").setPressedActionEnabled(true);
+            // imvTroopInQueue.getChildByName("btn_cancel_train").addClickEventListener((function(){
+            //     this._cancelTrain(typeCancel);
+            // }).bind(this))
         }
         for (;i<QUEUE_GUI_LENGTH; i++){
             this._queueGUI[i].setVisible(false);
         }
     },
+
 
     _close: function () {
         this._visible = false;

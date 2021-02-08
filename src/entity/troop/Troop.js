@@ -14,12 +14,14 @@ var TROOP_NAME = new Map([
     [TROOP.WARRIOR, "Warrior"],
     [TROOP.ARCHER, "Archer"],
     [TROOP.GIANT, "Giant"],
+    [TROOP.GOBLIN,"Goblin"],
     [TROOP.FLYING_BOOM, "Flying boom"]
 ]);
 
 var TROOP_IMAGE = new Map([
     [TROOP.WARRIOR, "guis/upgrade_troop/icon/ARM_1_3.png"],
     [TROOP.ARCHER, "guis/upgrade_troop/icon/ARM_2_4.png"],
+    [TROOP.GOBLIN, "guis/upgrade_troop/icon/ARM_3_4.png"],
     [TROOP.GIANT, "guis/upgrade_troop/icon/ARM_4_4.png"],
     [TROOP.FLYING_BOOM, "guis/upgrade_troop/icon/ARM_6_3.png"]
 ]);
@@ -770,6 +772,8 @@ var TroopFactory = {
                 return new Giant(this.increaseId, level, position);
             case TROOP.FLYING_BOOM:
                 return new FlyingBoom(this.increaseId, level, position);
+            case TROOP.GOBLIN:
+                return new Goblin(this.increaseId,level,position);
         }
     },
     resetId: function () {

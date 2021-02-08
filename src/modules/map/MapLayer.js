@@ -96,6 +96,17 @@ var MapLayer = cc.Layer.extend({
         this._objectLayer.addChild(troop);
     },
 
+    putTroopToPosition: function (troop,position){
+        troop.position.x = position.x;
+        troop.position.y = position.y;
+        let pixelPosition = this.convertTilePositionToPixelPosition(position);
+        troop.attr({
+            x: pixelPosition.x,
+            y: pixelPosition.y,
+            scale: TILE_MAP_SCALE
+        });
+    },
+
     putStructureToMap: function (structure) {
         var position = cc.p(structure.position.x, structure.position.y);
         position.x += structure.size.x / 2;

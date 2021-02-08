@@ -12,7 +12,6 @@ var ToolLayer = cc.Layer.extend({
         this._layer = ccs.load(MAIN_GUI.TOOL_LAYER, '').node;
         this.addChild(this._layer);
         this._btnShop = this._layer.getChildByName("btn_shop");
-        this._btnTrain = this._layer.getChildByName("btn_train_troop");
         this._btnAttack = this._layer.getChildByName("btn_attack");
         this._btnAttack.setPressedActionEnabled(true);
         this._btn_bunker = this._layer.getChildByName("btn_bunker");
@@ -34,9 +33,6 @@ var ToolLayer = cc.Layer.extend({
         this._btnShop.addClickEventListener((function () {
             Loading.getInstance()._mainLayer.openShop();
         }).bind(this));
-        this._btnTrain.addClickEventListener(function () {
-            MapController.getInstance().barrackManage.displayTrainTroopLayer(1);
-        });
         this._btn_bunker.addClickEventListener(function () {
             Loading.getInstance()._mainLayer._cheat.setVisible(true);
         })
